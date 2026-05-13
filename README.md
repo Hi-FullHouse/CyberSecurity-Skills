@@ -36,31 +36,31 @@ CyberSecurity-Skills/
 ├── 10-移动安全-MobileSecurity/         # 移动安全
 ├── 11-无线安全-WirelessSecurity/       # 无线网络安全
 ├── 12-代码审计-CodeAudit/              # 代码安全审计
-└── 13-逆向工程-ReverseEngineering/     # 逆向工程
-├── 14-安全审计-SecurityAudit/          # 安全合规审计
+├── 13-逆向工程-ReverseEngineering/     # 逆向工程
+└── 14-安全审计-SecurityAudit/          # 安全合规审计
 ```
 
 ---
 
-## 🗂️ 渗透测试全流程（14大阶段，共68个技能）
+## 🗂️ 渗透测试全流程（14大阶段，共53个技能）
 
 | 阶段 | 中文名称 | 英文名称 | 技能数 |
 |:---:|:---|:---|:---:|
 | 01 | 🔍 信息搜集 | Reconnaissance | 7 |
 | 02 | 📡 漏洞扫描 | Vulnerability Scanning | 6 |
 | 03 | 💥 漏洞利用 | Exploitation | 8 |
-| 04 | ⬆️ 权限提升 | Privilege Escalation | 5 |
-| 05 | 🕵️ 后渗透 | Post-Exploitation | 5 |
-| 06 | 🔄 横向移动 | Lateral Movement | 5 |
-| 07 | 🔗 持久化 | Persistence | 5 |
-| 08 | 🧹 痕迹清除 | Covering Tracks | 4 |
-| 09 | 📝 报告撰写 | Reporting | 4 |
-| 10 | 📱 移动安全 | Mobile Security | 3 |
-| 11 | 📶 无线安全 | Wireless Security | 3 |
-| 12 | 🔬 代码审计 | Code Audit | 4 |
+| 04 | ⬆️ 权限提升 | Privilege Escalation | 4 |
+| 05 | 🕵️ 后渗透 | Post-Exploitation | 1 |
+| 06 | 🔄 横向移动 | Lateral Movement | 3 |
+| 07 | 🔗 持久化 | Persistence | 1 |
+| 08 | 🧹 痕迹清除 | Covering Tracks | 1 |
+| 09 | 📝 报告撰写 | Reporting | 2 |
+| 10 | 📱 移动安全 | Mobile Security | 2 |
+| 11 | 📶 无线安全 | Wireless Security | 1 |
+| 12 | 🔬 代码审计 | Code Audit | 8 |
 | 13 | ⚙️ 逆向工程 | Reverse Engineering | 3 |
 | 14 | 🛡️ 安全审计 | Security Audit | 6 |
-| | **总计** | | **68** |
+| | | **总计** | | **53** |
 
 ---
 
@@ -165,6 +165,10 @@ CyberSecurity-Skills/
 | 2 | ☕ Java代码审计 | `Java代码审计-JavaCodeAudit.md` |
 | 3 | 🌐 JavaScript/Node.js代码审计 | `JavaScript代码审计-JSCodeAudit.md` |
 | 4 | 🐍 Python代码审计 | `Python代码审计-PythonCodeAudit.md` |
+| 5 | ⚙️ C代码审计 | `C代码审计-CCodeAudit.md` |
+| 6 | 🔧 C++代码审计 | `C++代码审计-CPPCodeAudit.md` |
+| 7 | 🦀 Rust代码审计 | `Rust代码审计-RustCodeAudit.md` |
+| 8 | 🐹 Go代码审计 | `Go代码审计-GoCodeAudit.md` |
 
 ### 阶段 13 · ⚙️ 逆向工程 (Reverse Engineering)
 
@@ -190,7 +194,7 @@ CyberSecurity-Skills/
 ## 🎯 使用方式
 
 ### 作为学习路线
-按编号顺序 01 → 13 依次学习，每个阶段内的技能文件独立阅读。
+按编号顺序 01 → 14 依次学习，每个阶段内的技能文件独立阅读。
 
 ### 作为实战Checklist
 在进行渗透测试时，逐项对照各阶段 Skills 清单，确保全面覆盖。
