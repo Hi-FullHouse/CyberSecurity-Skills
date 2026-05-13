@@ -42,7 +42,7 @@ CyberSecurity-Skills/
 
 ---
 
-## 🗂️ 渗透测试全流程（14大阶段，共53个技能）
+## 🗂️ 渗透测试全流程（14大阶段，共56个技能）
 
 | 阶段 | 中文名称 | 英文名称 | 技能数 |
 |:---:|:---|:---|:---:|
@@ -54,13 +54,13 @@ CyberSecurity-Skills/
 | 06 | 🔄 横向移动 | Lateral Movement | 3 |
 | 07 | 🔗 持久化 | Persistence | 1 |
 | 08 | 🧹 痕迹清除 | Covering Tracks | 1 |
-| 09 | 📝 报告撰写 | Reporting | 2 |
+| 09 | 📝 报告撰写 | Reporting | 5 |
 | 10 | 📱 移动安全 | Mobile Security | 2 |
 | 11 | 📶 无线安全 | Wireless Security | 1 |
 | 12 | 🔬 代码审计 | Code Audit | 8 |
 | 13 | ⚙️ 逆向工程 | Reverse Engineering | 3 |
 | 14 | 🛡️ 安全审计 | Security Audit | 6 |
-| | | **总计** | | **53** |
+| | | **总计** | | **56** |
 
 ---
 
@@ -143,6 +143,9 @@ CyberSecurity-Skills/
 |:---:|:---|:---|
 | 1 | 📝 渗透测试报告编写 | `报告编写-PentestReport.md` |
 | 2 | 📊 漏洞评级与CVSS评分 | `漏洞评级与CVSS-VulnRatingCVSS.md` |
+| 3 | 📄 Markdown安全报告模板 | `安全报告模板-Markdown.md` |
+| 4 | 🌐 HTML安全报告模板 | `安全报告模板-HTML.md` |
+| 5 | 📑 Word/PDF安全报告模板 | `安全报告模板-Word.md` |
 
 ### 阶段 10 · 📱 移动安全 (Mobile Security)
 
