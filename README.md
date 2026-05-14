@@ -37,12 +37,13 @@ CyberSecurity-Skills/
 ├── 11-无线安全-WirelessSecurity/       # 无线网络安全
 ├── 12-代码审计-CodeAudit/              # 代码安全审计
 ├── 13-逆向工程-ReverseEngineering/     # 逆向工程
-└── 14-安全审计-SecurityAudit/          # 安全合规审计
+├── 14-安全审计-SecurityAudit/          # 安全合规审计
+└── 15-应急响应-IncidentResponse/      # 应急响应与取证
 ```
 
 ---
 
-## 🗂️ 渗透测试全流程（14大阶段，共56个技能）
+## 🗂️ 渗透测试全流程（15大阶段，共68个技能）
 
 | 阶段 | 中文名称 | 英文名称 | 技能数 |
 |:---:|:---|:---|:---:|
@@ -60,7 +61,8 @@ CyberSecurity-Skills/
 | 12 | 🔬 代码审计 | Code Audit | 8 |
 | 13 | ⚙️ 逆向工程 | Reverse Engineering | 3 |
 | 14 | 🛡️ 安全审计 | Security Audit | 6 |
-| | | **总计** | | **56** |
+| 15 | 🚨 应急响应 | Incident Response | 12 |
+| | | **总计** | **68** |
 
 ---
 
@@ -192,12 +194,29 @@ CyberSecurity-Skills/
 | 5 | 🐳 容器安全审计 | `容器安全审计-ContainerSecurityAudit.md` |
 | 6 | 🌐 网络安全合规评估 | `网络安全合规评估-NetworkComplianceAssessment.md` |
 
+### 阶段 15 · 🚨 应急响应 (Incident Response)
+
+| # | 技能名称 | 文件名 |
+|:---:|:---|:---|
+| 1 | 📋 事件分类与优先级评估 | `事件分类与优先级评估-IncidentTriage.md` |
+| 2 | 📜 日志收集与分析 | `日志收集与分析-LogCollectionAnalysis.md` |
+| 3 | 🧠 内存取证分析 | `内存取证分析-MemoryForensics.md` |
+| 4 | 💾 磁盘取证与数据恢复 | `磁盘取证与数据恢复-DiskForensicsDataRecovery.md` |
+| 5 | 🌐 网络流量分析 | `网络流量分析-NetworkTrafficAnalysis.md` |
+| 6 | 🦠 恶意样本分析 | `恶意样本分析-MalwareSampleAnalysis.md` |
+| 7 | 🛑 事件遏制与清除 | `事件遏制与清除-ContainmentEradication.md` |
+| 8 | 💰 勒索软件应急响应 | `勒索软件应急响应-RansomwareIncidentResponse.md` |
+| 9 | ☁️ 云环境应急响应 | `云环境应急响应-CloudIncidentResponse.md` |
+| 10 | 🔎 威胁狩猎 | `威胁狩猎-ThreatHunting.md` |
+| 11 | 🤖 SOAR自动化响应 | `SOAR自动化响应-SOARAutomation.md` |
+| 12 | 📝 事件复盘与报告 | `事件复盘与报告-LessonsLearnedReporting.md` |
+
 ---
 
 ## 🎯 使用方式
 
 ### 作为学习路线
-按编号顺序 01 → 14 依次学习，每个阶段内的技能文件独立阅读。
+按编号顺序 01 → 15 依次学习，每个阶段内的技能文件独立阅读。
 
 ### 作为实战Checklist
 在进行渗透测试时，逐项对照各阶段 Skills 清单，确保全面覆盖。
