@@ -1,3 +1,12 @@
+---
+id: "12-008"
+title: "🐍 Python代码审计 (Python Code Audit)"
+category: "代码审计"
+category_en: "Code Audit"
+difficulty: "★★★"
+tools: "Bandit, Semgrep, Pyre, CodeQL"
+last_updated: "2025-07"
+---
 # 🐍 Python代码审计 (Python Code Audit)
 
 ## 概述

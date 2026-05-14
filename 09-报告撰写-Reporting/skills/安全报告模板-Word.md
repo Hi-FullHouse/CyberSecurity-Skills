@@ -1,3 +1,12 @@
+---
+id: "09-003"
+title: "📝 安全报告模板 - Word/PDF格式 (Security Report Template - Word/PDF)"
+category: "报告撰写"
+category_en: "Reporting"
+difficulty: "★★☆"
+tools: "python-docx, LibreOffice, Word"
+last_updated: "2025-07"
+---
 # 📝 安全报告模板 - Word/PDF格式 (Security Report Template - Word/PDF)
 
 > **版本**: v2.0 | **更新**: 2025-Q1 | **依赖**: python-docx | **输出**: .docx → 可转为 PDF

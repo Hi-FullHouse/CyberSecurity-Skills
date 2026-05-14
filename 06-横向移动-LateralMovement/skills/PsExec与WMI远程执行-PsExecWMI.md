@@ -1,3 +1,12 @@
+---
+id: "06-001"
+title: "🔁 PsExec与WMI远程执行 (PsExec & WMI Remote Execution)"
+category: "横向移动"
+category_en: "Lateral Movement"
+difficulty: "★★★"
+tools: "PsExec, WMI, WinRM, Impacket"
+last_updated: "2025-07"
+---
 # 🔁 PsExec与WMI远程执行 (PsExec & WMI Remote Execution)
 
 ## 概述

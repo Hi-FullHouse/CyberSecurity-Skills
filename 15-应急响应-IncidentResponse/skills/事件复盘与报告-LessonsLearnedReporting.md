@@ -1,3 +1,12 @@
+---
+id: "15-004"
+title: "📝 事件复盘与报告 (Lessons Learned & Reporting)"
+category: "应急响应"
+category_en: "Incident Response"
+difficulty: "★★★"
+tools: "复盘模板, Root Cause分析, 5 Whys"
+last_updated: "2025-07"
+---
 # 📝 事件复盘与报告 (Lessons Learned & Reporting)
 
 ## 概述

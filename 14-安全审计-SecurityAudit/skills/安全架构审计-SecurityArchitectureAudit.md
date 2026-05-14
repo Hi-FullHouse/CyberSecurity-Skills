@@ -1,3 +1,12 @@
+---
+id: "14-003"
+title: "🏗️ 安全架构审计 (Security Architecture Audit)"
+category: "安全审计"
+category_en: "Security Audit"
+difficulty: "★★★★"
+tools: "威胁建模工具, Archi, draw.io, STRIDE"
+last_updated: "2025-07"
+---
 # 🏗️ 安全架构审计 (Security Architecture Audit)
 
 ## 概述

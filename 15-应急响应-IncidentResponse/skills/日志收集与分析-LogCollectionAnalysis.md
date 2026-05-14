@@ -1,3 +1,12 @@
+---
+id: "15-011"
+title: "📜 日志收集与分析 (Log Collection & Analysis)"
+category: "应急响应"
+category_en: "Incident Response"
+difficulty: "★★★"
+tools: "ELK Stack, Splunk, Wazuh, Graylog"
+last_updated: "2025-07"
+---
 # 📜 日志收集与分析 (Log Collection & Analysis)
 
 ## 概述

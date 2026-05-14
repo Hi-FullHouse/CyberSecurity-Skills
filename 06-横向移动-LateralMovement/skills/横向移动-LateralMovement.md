@@ -1,3 +1,12 @@
+---
+id: "06-003"
+title: "🔄 横向移动 (Lateral Movement)"
+category: "横向移动"
+category_en: "Lateral Movement"
+difficulty: "★★★"
+tools: "BloodHound, CrackMapExec, Impacket"
+last_updated: "2025-07"
+---
 # 🔄 横向移动 (Lateral Movement)
 
 ## 概述

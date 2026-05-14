@@ -19,6 +19,7 @@
 | 10 | 威胁狩猎 | ★★★★★ | KQL, YARA, Sigma, MITRE ATT&CK |
 | 11 | SOAR自动化响应 | ★★★★ | Splunk SOAR, Shuffle, Tines |
 | 12 | 事件复盘与报告 | ★★★ | 复盘模板, Root Cause分析 |
+| 13 | 🤖 AI安全应急响应 | ★★★★ | AI IR Framework, MITRE ATLAS, TheHive |
 
 ## Skills 目录
 
@@ -34,6 +35,7 @@
 - [`skills/威胁狩猎-ThreatHunting.md`](skills/威胁狩猎-ThreatHunting.md)
 - [`skills/SOAR自动化响应-SOARAutomation.md`](skills/SOAR自动化响应-SOARAutomation.md)
 - [`skills/事件复盘与报告-LessonsLearnedReporting.md`](skills/事件复盘与报告-LessonsLearnedReporting.md)
+- [`skills/AI安全应急响应-AISecurityIncidentResponse.md`](skills/AI安全应急响应-AISecurityIncidentResponse.md)
 
 ## 参考资源
 

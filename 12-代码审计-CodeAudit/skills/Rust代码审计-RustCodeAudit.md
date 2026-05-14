@@ -1,3 +1,12 @@
+---
+id: "12-009"
+title: "🦀 Rust代码审计 (Rust Code Audit)"
+category: "代码审计"
+category_en: "Code Audit"
+difficulty: "★★★"
+tools: "Clippy, cargo-audit, cargo-geiger, Miri"
+last_updated: "2025-07"
+---
 # 🦀 Rust代码审计 (Rust Code Audit)
 
 ## 概述

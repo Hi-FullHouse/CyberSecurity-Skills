@@ -1,3 +1,12 @@
+---
+id: "04-004"
+title: "🔑 凭证窃取与利用 (Credential Theft & Exploitation)"
+category: "权限提升"
+category_en: "Privilege Escalation"
+difficulty: "★★★★"
+tools: "Mimikatz, Lazagne, LaZagne, ProcDump"
+last_updated: "2025-07"
+---
 # 🔑 凭证窃取与利用 (Credential Theft & Exploitation)
 
 ## 概述

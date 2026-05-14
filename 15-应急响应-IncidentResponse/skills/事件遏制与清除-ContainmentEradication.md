@@ -1,3 +1,12 @@
+---
+id: "15-005"
+title: "🛑 事件遏制与清除 (Containment & Eradication)"
+category: "应急响应"
+category_en: "Incident Response"
+difficulty: "★★★★"
+tools: "Firewall ACL, EDR隔离, GPO, 网络分段"
+last_updated: "2025-07"
+---
 # 🛑 事件遏制与清除 (Containment & Eradication)
 
 ## 概述

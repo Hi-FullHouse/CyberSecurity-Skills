@@ -1,3 +1,12 @@
+---
+id: "12-007"
+title: "🔍 PHP代码审计 (PHP Code Audit)"
+category: "代码审计"
+category_en: "Code Audit"
+difficulty: "★★★"
+tools: "RIPS, phpcs, Psalm, Phan, 手动审查"
+last_updated: "2025-07"
+---
 # 🔍 PHP代码审计 (PHP Code Audit)
 
 ## 概述

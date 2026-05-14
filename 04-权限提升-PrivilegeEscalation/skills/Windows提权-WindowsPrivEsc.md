@@ -1,3 +1,12 @@
+---
+id: "04-002"
+title: "🪟 Windows权限提升 (Windows Privilege Escalation)"
+category: "权限提升"
+category_en: "Privilege Escalation"
+difficulty: "★★★"
+tools: "WinPEAS, PowerUp, PrivescCheck, Seatbelt"
+last_updated: "2025-07"
+---
 # 🪟 Windows权限提升 (Windows Privilege Escalation)
 
 ## 概述

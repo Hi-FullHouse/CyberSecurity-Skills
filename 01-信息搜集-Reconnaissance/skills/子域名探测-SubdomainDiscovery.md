@@ -1,3 +1,12 @@
+---
+id: "01-003"
+title: "🔗 子域名探测 (Subdomain Discovery)"
+category: "信息搜集"
+category_en: "Reconnaissance"
+difficulty: "★★☆"
+tools: "Subfinder, Amass, Sublist3r"
+last_updated: "2025-07"
+---
 # 🔗 子域名探测 (Subdomain Discovery)
 
 ## 概述

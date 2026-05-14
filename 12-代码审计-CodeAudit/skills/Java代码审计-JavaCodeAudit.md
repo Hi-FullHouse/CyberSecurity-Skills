@@ -1,3 +1,12 @@
+---
+id: "12-006"
+title: "☕ Java代码审计 (Java Code Audit)"
+category: "代码审计"
+category_en: "Code Audit"
+difficulty: "★★★★"
+tools: "FindSecBugs, SpotBugs, Fortify, Semgrep"
+last_updated: "2025-07"
+---
 # ☕ Java代码审计 (Java Code Audit)
 
 ## 概述

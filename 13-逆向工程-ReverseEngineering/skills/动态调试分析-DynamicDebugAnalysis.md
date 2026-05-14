@@ -1,3 +1,12 @@
+---
+id: "13-001"
+title: "⚙️ 动态调试分析 (Dynamic Debug Analysis)"
+category: "逆向工程"
+category_en: "Reverse Engineering"
+difficulty: "★★★★"
+tools: "x64dbg, OllyDbg, GDB, WinDbg, Immunity"
+last_updated: "2025-07"
+---
 # ⚙️ 动态调试分析 (Dynamic Debug Analysis)
 
 ## 概述

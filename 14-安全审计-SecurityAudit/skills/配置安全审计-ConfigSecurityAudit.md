@@ -1,3 +1,12 @@
+---
+id: "14-007"
+title: "🔧 配置安全审计 (Configuration Security Audit)"
+category: "安全审计"
+category_en: "Security Audit"
+difficulty: "★★★"
+tools: "Lynis, OpenSCAP, CIS-CAT, Chef InSpec"
+last_updated: "2025-07"
+---
 # 🔧 配置安全审计 (Configuration Security Audit)
 
 ## 概述

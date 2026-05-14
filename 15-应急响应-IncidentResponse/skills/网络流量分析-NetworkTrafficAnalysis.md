@@ -1,3 +1,12 @@
+---
+id: "15-013"
+title: "🌐 网络流量分析 (Network Traffic Analysis)"
+category: "应急响应"
+category_en: "Incident Response"
+difficulty: "★★★★"
+tools: "Wireshark, Zeek, Suricata, tcpdump"
+last_updated: "2025-07"
+---
 # 🌐 网络流量分析 (Network Traffic Analysis)
 
 ## 概述

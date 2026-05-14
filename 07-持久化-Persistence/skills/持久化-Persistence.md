@@ -1,3 +1,12 @@
+---
+id: "07-001"
+title: "🔐 持久化 - 长期控制 (Persistence - Long-term Access)"
+category: "持久化"
+category_en: "Persistence"
+difficulty: "★★★"
+tools: "MSF Venom, Cobalt Strike, 计划任务, 自启动项"
+last_updated: "2025-07"
+---
 # 🔐 持久化 - 长期控制 (Persistence - Long-term Access)
 
 ## 概述

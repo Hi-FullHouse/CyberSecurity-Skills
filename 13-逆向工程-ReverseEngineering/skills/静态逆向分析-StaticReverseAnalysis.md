@@ -1,3 +1,12 @@
+---
+id: "13-003"
+title: "🔬 静态逆向分析 (Static Reverse Engineering)"
+category: "逆向工程"
+category_en: "Reverse Engineering"
+difficulty: "★★★★"
+tools: "IDA Pro, Ghidra, Radare2, Binary Ninja"
+last_updated: "2025-07"
+---
 # 🔬 静态逆向分析 (Static Reverse Engineering)
 
 ## 概述

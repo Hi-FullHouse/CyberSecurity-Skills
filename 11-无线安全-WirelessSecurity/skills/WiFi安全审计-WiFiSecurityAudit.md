@@ -1,3 +1,12 @@
+---
+id: "11-001"
+title: "📶 Wi-Fi安全审计 (Wi-Fi Security Audit)"
+category: "无线安全"
+category_en: "Wireless Security"
+difficulty: "★★★"
+tools: "Aircrack-ng, Wireshark, Airodump-ng, Hashcat"
+last_updated: "2025-07"
+---
 # 📶 Wi-Fi安全审计 (Wi-Fi Security Audit)
 
 ## 概述

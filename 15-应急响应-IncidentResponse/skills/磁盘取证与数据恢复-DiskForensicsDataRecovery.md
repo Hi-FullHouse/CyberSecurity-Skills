@@ -1,3 +1,12 @@
+---
+id: "15-012"
+title: "💾 磁盘取证与数据恢复 (Disk Forensics & Data Recovery)"
+category: "应急响应"
+category_en: "Incident Response"
+difficulty: "★★★★"
+tools: "FTK Imager, Autopsy, dd, Guymager"
+last_updated: "2025-07"
+---
 # 💾 磁盘取证与数据恢复 (Disk Forensics & Data Recovery)
 
 ## 概述

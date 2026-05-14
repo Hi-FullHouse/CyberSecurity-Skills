@@ -1,3 +1,12 @@
+---
+id: "14-002"
+title: "☁️ 云安全审计 (Cloud Security Audit)"
+category: "安全审计"
+category_en: "Security Audit"
+difficulty: "★★★★"
+tools: "ScoutSuite, Prowler, CloudSploit, Pacu"
+last_updated: "2025-07"
+---
 # ☁️ 云安全审计 (Cloud Security Audit)
 
 ## 概述

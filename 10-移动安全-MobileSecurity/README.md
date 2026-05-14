@@ -6,11 +6,9 @@
 ## 核心技能清单
 | # | 技能名称 | 难度 | 推荐工具 |
 |:---:|:---|:---:|:---|
-| 1 | Android渗透测试 | ★★★ | drozer, Frida, APKTool, MobSF |
-| 2 | iOS渗透测试 | ★★★★★ | Frida, Objection, class-dump, Ghidra |
-| 3 | 移动API测试 | ★★★ | Burp Suite, Postman, mitmproxy |
+| 1 | Android安全测试 | ★★★ | drozer, Frida, APKTool, MobSF |
+| 2 | iOS安全测试 | ★★★★★ | Frida, Objection, class-dump, Ghidra |
 
 ## Skills 目录
-- [`skills/Android渗透-AndroidPentest.md`](skills/Android渗透-AndroidPentest.md)
-- [`skills/iOS渗透-iOSPentest.md`](skills/iOS渗透-iOSPentest.md)
-- [`skills/移动API测试-MobileAPITesting.md`](skills/移动API测试-MobileAPITesting.md)
+- [`skills/Android安全测试-AndroidSecurityTest.md`](skills/Android安全测试-AndroidSecurityTest.md)
+- [`skills/iOS安全测试-iOSSecurityTest.md`](skills/iOS安全测试-iOSSecurityTest.md)

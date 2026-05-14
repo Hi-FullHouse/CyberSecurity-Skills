@@ -1,3 +1,12 @@
+---
+id: "15-006"
+title: "☁️ 云环境应急响应 (Cloud Incident Response)"
+category: "应急响应"
+category_en: "Incident Response"
+difficulty: "★★★★"
+tools: "AWS GuardDuty, Azure Sentinel, GCP Security"
+last_updated: "2025-07"
+---
 # ☁️ 云环境应急响应 (Cloud Incident Response)
 
 ## 概述

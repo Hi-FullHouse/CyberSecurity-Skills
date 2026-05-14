@@ -1,3 +1,12 @@
+---
+id: "04-003"
+title: "⬆️ 内核漏洞与服务配置错误提权 (Kernel Exploit & Service Misconfig PrivEsc)"
+category: "权限提升"
+category_en: "Privilege Escalation"
+difficulty: "★★★★"
+tools: "漏洞利用代码, MSF模块, 自定义exp"
+last_updated: "2025-07"
+---
 # ⬆️ 内核漏洞与服务配置错误提权 (Kernel Exploit & Service Misconfig PrivEsc)
 
 ## 概述

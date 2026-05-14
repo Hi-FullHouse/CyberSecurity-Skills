@@ -1,3 +1,12 @@
+---
+id: "14-004"
+title: "🐳 容器安全审计 (Container Security Audit)"
+category: "安全审计"
+category_en: "Security Audit"
+difficulty: "★★★"
+tools: "Trivy, Dockle, kube-bench, Falco, Dagda"
+last_updated: "2025-07"
+---
 # 🐳 容器安全审计 (Container Security Audit)
 
 ## 概述

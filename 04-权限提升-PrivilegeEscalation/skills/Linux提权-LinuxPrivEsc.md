@@ -1,3 +1,12 @@
+---
+id: "04-001"
+title: "🐧 Linux权限提升 (Linux Privilege Escalation)"
+category: "权限提升"
+category_en: "Privilege Escalation"
+difficulty: "★★★"
+tools: "LinPEAS, Linux Exploit Suggester, GTFO Bins"
+last_updated: "2025-07"
+---
 # 🐧 Linux权限提升 (Linux Privilege Escalation)
 
 ## 概述

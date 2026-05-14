@@ -1,3 +1,12 @@
+---
+id: "08-001"
+title: "🧹 痕迹清除 (Covering Tracks / Anti-Forensics)"
+category: "痕迹清除"
+category_en: "Covering Tracks"
+difficulty: "★★★"
+tools: "日志清除, 文件隐藏, 时间戳修改, 反取证技术"
+last_updated: "2025-07"
+---
 # 🧹 痕迹清除 (Covering Tracks / Anti-Forensics)
 
 ## 概述

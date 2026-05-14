@@ -1,3 +1,12 @@
+---
+id: "12-004"
+title: "🐹 Go代码审计 (Go Code Audit)"
+category: "代码审计"
+category_en: "Code Audit"
+difficulty: "★★★"
+tools: "gosec, staticcheck, govulncheck, Semgrep"
+last_updated: "2025-07"
+---
 # 🐹 Go代码审计 (Go Code Audit)
 
 ## 概述

@@ -1,3 +1,12 @@
+---
+id: "15-002"
+title: "🤖 SOAR自动化响应 (SOAR Automation)"
+category: "应急响应"
+category_en: "Incident Response"
+difficulty: "★★★★"
+tools: "Splunk SOAR, Shuffle, Tines, TheHive"
+last_updated: "2025-07"
+---
 # 🤖 SOAR自动化响应 (SOAR Automation)
 
 ## 概述

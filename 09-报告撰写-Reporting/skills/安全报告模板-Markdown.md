@@ -1,3 +1,12 @@
+---
+id: "09-002"
+title: "📄 安全报告模板 - Markdown格式 (Security Report Template - Markdown)"
+category: "报告撰写"
+category_en: "Reporting"
+difficulty: "★☆☆"
+tools: "Typora, VS Code, Mermaid, Python"
+last_updated: "2025-07"
+---
 # 📄 安全报告模板 - Markdown格式 (Security Report Template - Markdown)
 
 > **版本**: v2.0 | **更新**: 2025-Q1 | **兼容**: CVSS 3.1 / 4.0, OWASP Top 10 2021, CWE, PCI DSS, 等保2.0

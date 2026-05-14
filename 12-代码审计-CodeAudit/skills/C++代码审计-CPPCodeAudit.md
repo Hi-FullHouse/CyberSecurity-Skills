@@ -1,3 +1,12 @@
+---
+id: "12-002"
+title: "🔧 C++代码审计 (C++ Code Audit)"
+category: "代码审计"
+category_en: "Code Audit"
+difficulty: "★★★★"
+tools: "Cppcheck, Clang-Tidy, PVS-Studio, CodeQL"
+last_updated: "2025-07"
+---
 # 🔧 C++代码审计 (C++ Code Audit)
 
 ## 概述

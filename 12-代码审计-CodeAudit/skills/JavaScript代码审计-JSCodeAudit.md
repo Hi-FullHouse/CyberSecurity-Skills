@@ -1,3 +1,12 @@
+---
+id: "12-005"
+title: "🌐 JavaScript/Node.js代码审计 (JavaScript & Node.js Code Audit)"
+category: "代码审计"
+category_en: "Code Audit"
+difficulty: "★★★"
+tools: "ESLint, RetireJS, Semgrep, CodeQL"
+last_updated: "2025-07"
+---
 # 🌐 JavaScript/Node.js代码审计 (JavaScript & Node.js Code Audit)
 
 ## 概述

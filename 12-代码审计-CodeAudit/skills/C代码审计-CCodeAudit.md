@@ -1,3 +1,12 @@
+---
+id: "12-003"
+title: "⚙️ C代码审计 (C Code Audit)"
+category: "代码审计"
+category_en: "Code Audit"
+difficulty: "★★★★"
+tools: "Flawfinder, Cppcheck, ASan, Valgrind"
+last_updated: "2025-07"
+---
 # ⚙️ C代码审计 (C Code Audit)
 
 ## 概述

@@ -1,3 +1,12 @@
+---
+id: "15-007"
+title: "🧠 内存取证分析 (Memory Forensics)"
+category: "应急响应"
+category_en: "Incident Response"
+difficulty: "★★★★★"
+tools: "Volatility, Rekall, LiME, Avml"
+last_updated: "2025-07"
+---
 # 🧠 内存取证分析 (Memory Forensics)
 
 ## 概述

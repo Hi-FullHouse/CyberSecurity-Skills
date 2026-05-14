@@ -12,6 +12,7 @@
 | 4 | 云安全审计 | ★★★★ | ScoutSuite, Prowler, CloudSploit |
 | 5 | 容器安全审计 | ★★★ | Trivy, Dockle, kube-bench, Falco |
 | 6 | 网络安全合规评估 | ★★★ | Nmap NSE, Wireshark, Nipper |
+| 7 | 🤖 AI Agent安全审计 | ★★★★ | OWASP LLM VS, CSA CCM, Prowler |
 
 ## Skills 目录
 - [`skills/等级保护合规审计-ClassifiedProtectionAudit.md`](skills/等级保护合规审计-ClassifiedProtectionAudit.md)
@@ -20,6 +21,7 @@
 - [`skills/云安全审计-CloudSecurityAudit.md`](skills/云安全审计-CloudSecurityAudit.md)
 - [`skills/容器安全审计-ContainerSecurityAudit.md`](skills/容器安全审计-ContainerSecurityAudit.md)
 - [`skills/网络安全合规评估-NetworkComplianceAssessment.md`](skills/网络安全合规评估-NetworkComplianceAssessment.md)
+- [`skills/AI Agent安全审计-AIAgentSecurityAudit.md`](skills/AI%20Agent安全审计-AIAgentSecurityAudit.md)
 
 ## 参考资源
 - [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks/)

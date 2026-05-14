@@ -1,3 +1,12 @@
+---
+id: "14-005"
+title: "🏛️ 等级保护合规审计 (Classified Protection Compliance Audit)"
+category: "安全审计"
+category_en: "Security Audit"
+difficulty: "★★★★"
+tools: "等保自查工具, 合规扫描平台"
+last_updated: "2025-07"
+---
 # 🏛️ 等级保护合规审计 (Classified Protection Compliance Audit)
 
 ## 概述

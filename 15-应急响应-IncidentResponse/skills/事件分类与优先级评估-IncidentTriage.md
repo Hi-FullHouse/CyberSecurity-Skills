@@ -1,3 +1,12 @@
+---
+id: "15-003"
+title: "📋 事件分类与优先级评估 (Incident Triage & Prioritization)"
+category: "应急响应"
+category_en: "Incident Response"
+difficulty: "★★★"
+tools: "事件管理平台, SIRP工具, TheHive"
+last_updated: "2025-07"
+---
 # 📋 事件分类与优先级评估 (Incident Triage & Prioritization)
 
 ## 概述

@@ -14,6 +14,7 @@
 | 6 | C++代码审计 | ★★★★ | Cppcheck, Clang-Tidy, PVS-Studio |
 | 7 | Rust代码审计 | ★★★ | Clippy, cargo-audit, cargo-geiger, Miri |
 | 8 | Go代码审计 | ★★★ | gosec, staticcheck, govulncheck |
+| 9 | 🤖 AI Agent代码审计 | ★★★★ | Semgrep, Bandit, CodeQL |
 
 ## Skills 目录
 - [`skills/PHP代码审计-PHPCodeAudit.md`](skills/PHP代码审计-PHPCodeAudit.md)
@@ -24,3 +25,4 @@
 - [`skills/C++代码审计-CPPCodeAudit.md`](skills/C++代码审计-CPPCodeAudit.md)
 - [`skills/Rust代码审计-RustCodeAudit.md`](skills/Rust代码审计-RustCodeAudit.md)
 - [`skills/Go代码审计-GoCodeAudit.md`](skills/Go代码审计-GoCodeAudit.md)
+- [`skills/AI Agent代码审计-AIAgentCodeAudit.md`](skills/AI%20Agent代码审计-AIAgentCodeAudit.md)

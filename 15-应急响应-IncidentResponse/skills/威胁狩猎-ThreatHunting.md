@@ -1,3 +1,12 @@
+---
+id: "15-009"
+title: "🔎 威胁狩猎 (Threat Hunting)"
+category: "应急响应"
+category_en: "Incident Response"
+difficulty: "★★★★★"
+tools: "KQL, YARA, Sigma, MITRE ATT&CK, ELK"
+last_updated: "2025-07"
+---
 # 🔎 威胁狩猎 (Threat Hunting)
 
 ## 概述

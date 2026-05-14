@@ -1,3 +1,12 @@
+---
+id: "15-008"
+title: "💰 勒索软件应急响应 (Ransomware Incident Response)"
+category: "应急响应"
+category_en: "Incident Response"
+difficulty: "★★★★★"
+tools: "EDR工具, 解密工具, 备份恢复, FLARE VM"
+last_updated: "2025-07"
+---
 # 💰 勒索软件应急响应 (Ransomware Incident Response)
 
 ## 概述
