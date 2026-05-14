@@ -4,6 +4,9 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Agent Ready](https://img.shields.io/badge/Agent-Ready-8A2BE2)](agent-manifest.json)
+[![Skills](https://img.shields.io/badge/skills-86-success)](index.json)
+[![CLI](https://img.shields.io/badge/CLI-✓-blue)](skill_query.py)
 
 ---
 
@@ -38,31 +41,33 @@ CyberSecurity-Skills/
 ├── 12-代码审计-CodeAudit/              # 代码安全审计
 ├── 13-逆向工程-ReverseEngineering/     # 逆向工程
 ├── 14-安全审计-SecurityAudit/          # 安全合规审计
-└── 15-应急响应-IncidentResponse/      # 应急响应与取证
+├── 15-应急响应-IncidentResponse/      # 应急响应与取证
+└── 16-大模型安全-LLMSecurity/          # 大模型与AI智能体安全
 ```
 
 ---
 
-## 🗂️ 渗透测试全流程（15大阶段，共68个技能）
+## 🗂️ 渗透测试全流程（16大阶段，共86个技能）
 
 | 阶段 | 中文名称 | 英文名称 | 技能数 |
 |:---:|:---|:---|:---:|
 | 01 | 🔍 信息搜集 | Reconnaissance | 7 |
-| 02 | 📡 漏洞扫描 | Vulnerability Scanning | 6 |
-| 03 | 💥 漏洞利用 | Exploitation | 8 |
+| 02 | 📡 漏洞扫描 | Vulnerability Scanning | 7 |
+| 03 | 💥 漏洞利用 | Exploitation | 9 |
 | 04 | ⬆️ 权限提升 | Privilege Escalation | 4 |
-| 05 | 🕵️ 后渗透 | Post-Exploitation | 1 |
+| 05 | 🕵️ 后渗透 | Post-Exploitation | 4 |
 | 06 | 🔄 横向移动 | Lateral Movement | 3 |
 | 07 | 🔗 持久化 | Persistence | 1 |
 | 08 | 🧹 痕迹清除 | Covering Tracks | 1 |
 | 09 | 📝 报告撰写 | Reporting | 5 |
 | 10 | 📱 移动安全 | Mobile Security | 2 |
 | 11 | 📶 无线安全 | Wireless Security | 1 |
-| 12 | 🔬 代码审计 | Code Audit | 8 |
+| 12 | 🔬 代码审计 | Code Audit | 9 |
 | 13 | ⚙️ 逆向工程 | Reverse Engineering | 3 |
-| 14 | 🛡️ 安全审计 | Security Audit | 6 |
-| 15 | 🚨 应急响应 | Incident Response | 12 |
-| | | **总计** | **68** |
+| 14 | 🛡️ 安全审计 | Security Audit | 7 |
+| 15 | 🚨 应急响应 | Incident Response | 13 |
+| 16 | 🤖 大模型安全 | LLM Security | 10 |
+| | | **总计** | **86** |
 
 ---
 
@@ -90,6 +95,7 @@ CyberSecurity-Skills/
 | 4 | 🔌 API安全测试 | `API安全测试-APISecurityTest.md` |
 | 5 | 🔧 配置审计扫描 | `配置审计扫描-ConfigAuditScan.md` |
 | 6 | 🤖 漏洞扫描器自动化 | `漏洞扫描器自动化-VulnScannerAutomation.md` |
+| 7 | 🤖 AI代理漏洞扫描 | `AI代理漏洞扫描-AIAgentVulnScan.md` |
 
 ### 阶段 03 · 💥 漏洞利用 (Exploitation)
 
@@ -103,6 +109,7 @@ CyberSecurity-Skills/
 | 6 | 🔗 SSRF服务端请求伪造 | `SSRF服务端请求伪造-SSRF.md` |
 | 7 | 🔐 认证绕过 | `认证绕过-AuthBypass.md` |
 | 8 | 💀 Metasploit框架利用 | `Metasploit框架利用-Metasploit.md` |
+| 9 | 🤖 AI代理漏洞利用 | `AI代理漏洞利用-AIAgentExploitation.md` |
 
 ### 阶段 04 · ⬆️ 权限提升 (Privilege Escalation)
 
@@ -118,6 +125,9 @@ CyberSecurity-Skills/
 | # | 技能名称 | 文件名 |
 |:---:|:---|:---|
 | 1 | 🕵️ 信息收集与数据窃取 | `信息收集与数据窃取-InfoGatheringDataExfil.md` |
+| 2 | 🔑 凭证转储与哈希传递 | `凭证转储与哈希传递-CredentialDumpingPtH.md` |
+| 3 | 💻 远程控制与交互式Shell | `远程控制与交互式Shell-RemoteControlShell.md` |
+| 4 | ⌨️ 键盘记录与屏幕捕获 | `键盘记录与屏幕捕获-KeyloggingScreenCapture.md` |
 
 ### 阶段 06 · 🔄 横向移动 (Lateral Movement)
 
@@ -174,6 +184,7 @@ CyberSecurity-Skills/
 | 6 | 🔧 C++代码审计 | `C++代码审计-CPPCodeAudit.md` |
 | 7 | 🦀 Rust代码审计 | `Rust代码审计-RustCodeAudit.md` |
 | 8 | 🐹 Go代码审计 | `Go代码审计-GoCodeAudit.md` |
+| 9 | 🤖 AI Agent代码审计 | `AI Agent代码审计-AIAgentCodeAudit.md` |
 
 ### 阶段 13 · ⚙️ 逆向工程 (Reverse Engineering)
 
@@ -193,6 +204,7 @@ CyberSecurity-Skills/
 | 4 | ☁️ 云安全审计 | `云安全审计-CloudSecurityAudit.md` |
 | 5 | 🐳 容器安全审计 | `容器安全审计-ContainerSecurityAudit.md` |
 | 6 | 🌐 网络安全合规评估 | `网络安全合规评估-NetworkComplianceAssessment.md` |
+| 7 | 🤖 AI Agent安全审计 | `AI Agent安全审计-AIAgentSecurityAudit.md` |
 
 ### 阶段 15 · 🚨 应急响应 (Incident Response)
 
@@ -210,6 +222,22 @@ CyberSecurity-Skills/
 | 10 | 🔎 威胁狩猎 | `威胁狩猎-ThreatHunting.md` |
 | 11 | 🤖 SOAR自动化响应 | `SOAR自动化响应-SOARAutomation.md` |
 | 12 | 📝 事件复盘与报告 | `事件复盘与报告-LessonsLearnedReporting.md` |
+| 13 | 🤖 AI安全应急响应 | `AI安全应急响应-AISecurityIncidentResponse.md` |
+
+### 阶段 16 · 🤖 大模型安全 (LLM Security)
+
+| # | 技能名称 | 文件名 |
+|:---:|:---|:---|
+| 1 | 🧪 LLM提示注入与安全防护 | `LLM提示注入与安全防护-PromptInjectionDefense.md` |
+| 2 | 🔒 LLM数据泄露与隐私保护 | `LLM数据泄露与隐私保护-DataLeakagePrivacy.md` |
+| 3 | 📦 AI供应链安全 | `AI供应链安全-AISupplyChainSecurity.md` |
+| 4 | 🎯 大模型红队测试 | `大模型红队测试-LLMRedTeaming.md` |
+| 5 | 🔐 AI Agent权限与访问控制 | `AI Agent权限与访问控制-AgentAuthorization.md` |
+| 6 | 🛡️ 模型对抗攻击与防御 | `模型对抗攻击与防御-AdversarialAttackDefense.md` |
+| 7 | 📝 模型输出安全与幻觉检测 | `模型输出安全与幻觉检测-OutputSafetyHallucination.md` |
+| 8 | ⚙️ AI应用安全配置审计 | `AI应用安全配置审计-AIAppSecurityConfig.md` |
+| 9 | 🤝 联邦学习安全 | `联邦学习安全-FederatedLearningSecurity.md` |
+| 10 | 🎨 多模态AI安全 | `多模态AI安全-MultimodalAISecurity.md` |
 
 ---
 
@@ -223,6 +251,19 @@ CyberSecurity-Skills/
 
 ### 作为教学材料
 讲师可按阶段组织课程，每个 Skill 文件可作为一节课的教学大纲。
+
+### 作为 AI Agent 技能库
+专为 **AI Agent 集成** 设计，提供标准化接口供 Claude Code、Cursor 等 AI Agent 调用：
+
+```bash
+# CLI 查询工具（AI Agent 原生接口）
+python skill_query.py list-modules            # 列出所有模块
+python skill_query.py search --keyword SQL    # 搜索技能
+python skill_query.py get-skill --id 15-001   # 读取技能内容
+python skill_query.py validate                # 验证一致性
+```
+
+集成入口文件： [`agent-manifest.json`](agent-manifest.json) · [`index.json`](index.json) · [`skill_query.py`](skill_query.py) · [`AGENT_USAGE.md`](AGENT_USAGE.md)
 
 ---
 

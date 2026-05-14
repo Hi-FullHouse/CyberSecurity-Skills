@@ -1,0 +1,93 @@
+{
+  "$schema": "./index.schema.json",
+  "agent_manifest_version": "1.0.0",
+  "project": {
+    "name": "CyberSecurity-Skills",
+    "description": "网络安全渗透测试全流程技能库 — 16大阶段，86个技能",
+    "language": "zh-CN",
+    "framework": "PTES (Penetration Testing Execution Standard)",
+    "standards": [
+      "PTES",
+      "OWASP Testing Guide v4.2",
+      "NIST SP 800-115",
+      "NIST SP 800-61 Rev 2",
+      "MITRE ATT&CK v15",
+      "MITRE ATLAS",
+      "OWASP Top 10 for LLM Applications",
+      "CIS Benchmarks",
+      "ISO 27001",
+      "等级保护2.0"
+    ]
+  },
+
+  "agent_integration": {
+    "entry_point": "index.json",
+    "schema": "index.schema.json",
+    "api_script": "skill_query.py",
+    "agent_instructions": "AGENT_USAGE.md"
+  },
+
+  "capabilities": {
+    "list_modules": {
+      "description": "列出所有技能模块",
+      "invocation_hint": "调用 skill_query.py list-modules 或读取 index.json 的 modules 字段"
+    },
+    "list_skills": {
+      "description": "列出指定模块下的所有技能",
+      "invocation_hint": "调用 skill_query.py list-skills --module <id|name>"
+    },
+    "get_skill": {
+      "description": "获取单个技能的完整内容",
+      "invocation_hint": "调用 skill_query.py get-skill --id <skill-id> 或直接读取 skills/ 目录下对应的 .md 文件"
+    },
+    "search_skills": {
+      "description": "按关键词搜索技能",
+      "invocation_hint": "调用 skill_query.py search --keyword <keyword>"
+    },
+    "resolve_path": {
+      "description": "根据模块和技能名称解析文件的绝对路径",
+      "invocation_hint": "使用 skill_query.py resolve --module <id> --skill <skill-name>"
+    },
+    "check_consistency": {
+      "description": "验证 index.json 与实际文件列表的一致性",
+      "invocation_hint": "调用 skill_query.py validate"
+    }
+  },
+
+  "invocation_examples": [
+    {
+      "purpose": "获取所有模块概览",
+      "agent_command": "python skill_query.py list-modules",
+      "description": "输出所有16个安全模块的ID、名称、技能数量和路径"
+    },
+    {
+      "purpose": "搜索与 'SQL注入' 相关的所有技能",
+      "agent_command": "python skill_query.py search --keyword SQL注入",
+      "description": "搜索技能名称和内容，返回匹配的技能列表"
+    },
+    {
+      "purpose": "获取应急响应模块的完整技能列表",
+      "agent_command": "python skill_query.py list-skills --module 15",
+      "description": "输出模块15（应急响应）的所有13个技能"
+    },
+    {
+      "purpose": "验证索引一致性",
+      "agent_command": "python skill_query.py validate",
+      "description": "检查 index.json 中列出的文件是否真实存在，计数是否匹配"
+    }
+  ],
+
+  "skill_file_format": {
+    "frontmatter": {
+      "description": "每个技能文件顶部包含YAML frontmatter，用于机器解析",
+      "fields": ["id", "title", "category", "category_en", "difficulty", "tools", "last_updated"]
+    },
+    "sections": [
+      "概述 (overview)",
+      "核心技能 (core_skills)",
+      "漏洞评级与评估矩阵 (risk_matrix) — 可选",
+      "常用工具 (tools)",
+      "参考资源 (references)"
+    ]
+  }
+}

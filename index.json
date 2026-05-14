@@ -1,0 +1,271 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AtomGit/CyberSecurity-Skills/main/index.schema.json",
+  "meta": {
+    "title": "CyberSecurity-Skills · 网络安全技能库",
+    "description": "渗透测试全流程技能体系 — 从信息收集到报告撰写的完整知识框架",
+    "version": "2.1.0",
+    "total_skills": 86,
+    "total_modules": 16,
+    "last_updated": "2025-07-09",
+    "standards": [
+      "PTES (Penetration Testing Execution Standard)",
+      "OWASP Testing Guide v4.2",
+      "NIST SP 800-115",
+      "NIST SP 800-61 Rev 2",
+      "MITRE ATT&CK v15",
+      "MITRE ATLAS™",
+      "OWASP Top 10 for LLM Applications",
+      "CIS Benchmarks",
+      "ISO 27001",
+      "等级保护2.0"
+    ]
+  },
+  "modules": [
+    {
+      "id": 1,
+      "name_cn": "信息搜集",
+      "name_en": "Reconnaissance",
+      "emoji": "🔍",
+      "path": "01-信息搜集-Reconnaissance",
+      "skill_count": 7,
+      "skills": [
+        {"name": "被动信息搜集/OSINT", "file": "被动信息搜集-PassiveRecon.md", "difficulty": "★☆☆"},
+        {"name": "主动信息搜集", "file": "主动信息搜集-ActiveRecon.md", "difficulty": "★★☆"},
+        {"name": "DNS枚举", "file": "DNS枚举-DNSEnumeration.md", "difficulty": "★☆☆"},
+        {"name": "子域名探测", "file": "子域名探测-SubdomainDiscovery.md", "difficulty": "★★☆"},
+        {"name": "网络空间搜索引擎", "file": "网络空间搜索引擎-OSINT-SearchEngine.md", "difficulty": "★★☆"},
+        {"name": "社会工程学信息", "file": "社会工程学信息-SocialEngineeringInfo.md", "difficulty": "★★★"},
+        {"name": "目标技术栈识别", "file": "目标技术栈识别-TechStackFingerprint.md", "difficulty": "★★☆"}
+      ]
+    },
+    {
+      "id": 2,
+      "name_cn": "漏洞扫描",
+      "name_en": "Vulnerability Scanning",
+      "emoji": "📡",
+      "path": "02-漏洞扫描-VulnerabilityScanning",
+      "skill_count": 7,
+      "skills": [
+        {"name": "Web漏洞扫描", "file": "Web漏洞扫描-WebVulnScan.md", "difficulty": "★★★"},
+        {"name": "网络漏洞扫描", "file": "网络漏洞扫描-NetworkVulnScan.md", "difficulty": "★★☆"},
+        {"name": "数据库安全评估", "file": "数据库安全评估-DatabaseAssessment.md", "difficulty": "★★★"},
+        {"name": "API安全测试", "file": "API安全测试-APISecurityTest.md", "difficulty": "★★★"},
+        {"name": "配置审计扫描", "file": "配置审计扫描-ConfigAuditScan.md", "difficulty": "★★☆"},
+        {"name": "漏洞扫描器自动化", "file": "漏洞扫描器自动化-VulnScannerAutomation.md", "difficulty": "★★★"},
+        {"name": "AI代理漏洞扫描", "file": "AI代理漏洞扫描-AIAgentVulnScan.md", "difficulty": "★★★★"}
+      ]
+    },
+    {
+      "id": 3,
+      "name_cn": "漏洞利用",
+      "name_en": "Exploitation",
+      "emoji": "💥",
+      "path": "03-漏洞利用-Exploitation",
+      "skill_count": 9,
+      "skills": [
+        {"name": "Web漏洞利用", "file": "Web漏洞利用-WebExploitation.md", "difficulty": "★★★"},
+        {"name": "SQL注入利用", "file": "SQL注入利用-SQLInjection.md", "difficulty": "★★☆"},
+        {"name": "XSS跨站脚本", "file": "XSS跨站脚本-XSSExploitation.md", "difficulty": "★★☆"},
+        {"name": "文件包含利用", "file": "文件包含利用-FileInclusion.md", "difficulty": "★★★"},
+        {"name": "命令注入", "file": "命令注入-CommandInjection.md", "difficulty": "★★☆"},
+        {"name": "SSRF服务端请求伪造", "file": "SSRF服务端请求伪造-SSRF.md", "difficulty": "★★★"},
+        {"name": "认证绕过", "file": "认证绕过-AuthBypass.md", "difficulty": "★★★"},
+        {"name": "Metasploit框架利用", "file": "Metasploit框架利用-Metasploit.md", "difficulty": "★★☆"},
+        {"name": "AI代理漏洞利用", "file": "AI代理漏洞利用-AIAgentExploitation.md", "difficulty": "★★★★"}
+      ]
+    },
+    {
+      "id": 4,
+      "name_cn": "权限提升",
+      "name_en": "Privilege Escalation",
+      "emoji": "⬆️",
+      "path": "04-权限提升-PrivilegeEscalation",
+      "skill_count": 4,
+      "skills": [
+        {"name": "Linux提权", "file": "Linux提权-LinuxPrivEsc.md", "difficulty": "★★★"},
+        {"name": "Windows提权", "file": "Windows提权-WindowsPrivEsc.md", "difficulty": "★★★"},
+        {"name": "内核漏洞与服务配置错误提权", "file": "内核漏洞与服务配置错误提权-KernelServicePrivEsc.md", "difficulty": "★★★★"},
+        {"name": "凭证窃取与利用", "file": "凭证窃取与利用-CredentialTheft.md", "difficulty": "★★★★"}
+      ]
+    },
+    {
+      "id": 5,
+      "name_cn": "后渗透",
+      "name_en": "Post-Exploitation",
+      "emoji": "🕵️",
+      "path": "05-后渗透-PostExploitation",
+      "skill_count": 4,
+      "skills": [
+        {"name": "信息收集与数据窃取", "file": "信息收集与数据窃取-InfoGatheringDataExfil.md", "difficulty": "★★★"},
+        {"name": "凭证转储与哈希传递", "file": "凭证转储与哈希传递-CredentialDumpingPtH.md", "difficulty": "★★★★"},
+        {"name": "远程控制与交互式Shell", "file": "远程控制与交互式Shell-RemoteControlShell.md", "difficulty": "★★★★"},
+        {"name": "键盘记录与屏幕捕获", "file": "键盘记录与屏幕捕获-KeyloggingScreenCapture.md", "difficulty": "★★★"}
+      ]
+    },
+    {
+      "id": 6,
+      "name_cn": "横向移动",
+      "name_en": "Lateral Movement",
+      "emoji": "🔄",
+      "path": "06-横向移动-LateralMovement",
+      "skill_count": 3,
+      "skills": [
+        {"name": "横向移动", "file": "横向移动-LateralMovement.md", "difficulty": "★★★"},
+        {"name": "内网代理与隧道", "file": "内网代理与隧道-InternalProxyTunnel.md", "difficulty": "★★★★"},
+        {"name": "PsExec与WMI远程执行", "file": "PsExec与WMI远程执行-PsExecWMI.md", "difficulty": "★★★"}
+      ]
+    },
+    {
+      "id": 7,
+      "name_cn": "持久化",
+      "name_en": "Persistence",
+      "emoji": "🔗",
+      "path": "07-持久化-Persistence",
+      "skill_count": 1,
+      "skills": [
+        {"name": "持久化", "file": "持久化-Persistence.md", "difficulty": "★★★"}
+      ]
+    },
+    {
+      "id": 8,
+      "name_cn": "痕迹清除",
+      "name_en": "Covering Tracks",
+      "emoji": "🧹",
+      "path": "08-痕迹清除-CoveringTracks",
+      "skill_count": 1,
+      "skills": [
+        {"name": "痕迹清除与反取证", "file": "痕迹清除-CoveringTracks.md", "difficulty": "★★★"}
+      ]
+    },
+    {
+      "id": 9,
+      "name_cn": "报告撰写",
+      "name_en": "Reporting",
+      "emoji": "📝",
+      "path": "09-报告撰写-Reporting",
+      "skill_count": 5,
+      "skills": [
+        {"name": "渗透测试报告编写", "file": "报告编写-PentestReport.md", "difficulty": "★★☆"},
+        {"name": "漏洞评级与CVSS评分", "file": "漏洞评级与CVSS-VulnRatingCVSS.md", "difficulty": "★★☆"},
+        {"name": "Markdown安全报告模板", "file": "安全报告模板-Markdown.md", "difficulty": "★☆☆"},
+        {"name": "HTML安全报告模板", "file": "安全报告模板-HTML.md", "difficulty": "★★☆"},
+        {"name": "Word/PDF安全报告模板", "file": "安全报告模板-Word.md", "difficulty": "★★☆"}
+      ]
+    },
+    {
+      "id": 10,
+      "name_cn": "移动安全",
+      "name_en": "Mobile Security",
+      "emoji": "📱",
+      "path": "10-移动安全-MobileSecurity",
+      "skill_count": 2,
+      "skills": [
+        {"name": "Android安全测试", "file": "Android安全测试-AndroidSecurityTest.md", "difficulty": "★★★"},
+        {"name": "iOS安全测试", "file": "iOS安全测试-iOSSecurityTest.md", "difficulty": "★★★★★"}
+      ]
+    },
+    {
+      "id": 11,
+      "name_cn": "无线安全",
+      "name_en": "Wireless Security",
+      "emoji": "📶",
+      "path": "11-无线安全-WirelessSecurity",
+      "skill_count": 1,
+      "skills": [
+        {"name": "Wi-Fi安全审计", "file": "WiFi安全审计-WiFiSecurityAudit.md", "difficulty": "★★★"}
+      ]
+    },
+    {
+      "id": 12,
+      "name_cn": "代码审计",
+      "name_en": "Code Audit",
+      "emoji": "🔬",
+      "path": "12-代码审计-CodeAudit",
+      "skill_count": 9,
+      "skills": [
+        {"name": "PHP代码审计", "file": "PHP代码审计-PHPCodeAudit.md", "difficulty": "★★★"},
+        {"name": "Java代码审计", "file": "Java代码审计-JavaCodeAudit.md", "difficulty": "★★★★"},
+        {"name": "JavaScript代码审计", "file": "JavaScript代码审计-JSCodeAudit.md", "difficulty": "★★★"},
+        {"name": "Python代码审计", "file": "Python代码审计-PythonCodeAudit.md", "difficulty": "★★★"},
+        {"name": "C代码审计", "file": "C代码审计-CCodeAudit.md", "difficulty": "★★★★"},
+        {"name": "C++代码审计", "file": "C++代码审计-CPPCodeAudit.md", "difficulty": "★★★★"},
+        {"name": "Rust代码审计", "file": "Rust代码审计-RustCodeAudit.md", "difficulty": "★★★"},
+        {"name": "Go代码审计", "file": "Go代码审计-GoCodeAudit.md", "difficulty": "★★★"},
+        {"name": "AI Agent代码审计", "file": "AI Agent代码审计-AIAgentCodeAudit.md", "difficulty": "★★★★"}
+      ]
+    },
+    {
+      "id": 13,
+      "name_cn": "逆向工程",
+      "name_en": "Reverse Engineering",
+      "emoji": "⚙️",
+      "path": "13-逆向工程-ReverseEngineering",
+      "skill_count": 3,
+      "skills": [
+        {"name": "静态逆向分析", "file": "静态逆向分析-StaticReverseAnalysis.md", "difficulty": "★★★★"},
+        {"name": "动态调试分析", "file": "动态调试分析-DynamicDebugAnalysis.md", "difficulty": "★★★★"},
+        {"name": "恶意软件分析", "file": "恶意软件分析-MalwareAnalysis.md", "difficulty": "★★★★★"}
+      ]
+    },
+    {
+      "id": 14,
+      "name_cn": "安全审计",
+      "name_en": "Security Audit",
+      "emoji": "🛡️",
+      "path": "14-安全审计-SecurityAudit",
+      "skill_count": 7,
+      "skills": [
+        {"name": "等级保护合规审计", "file": "等级保护合规审计-ClassifiedProtectionAudit.md", "difficulty": "★★★★"},
+        {"name": "配置安全审计", "file": "配置安全审计-ConfigSecurityAudit.md", "difficulty": "★★★"},
+        {"name": "安全架构审计", "file": "安全架构审计-SecurityArchitectureAudit.md", "difficulty": "★★★★"},
+        {"name": "云安全审计", "file": "云安全审计-CloudSecurityAudit.md", "difficulty": "★★★★"},
+        {"name": "容器安全审计", "file": "容器安全审计-ContainerSecurityAudit.md", "difficulty": "★★★"},
+        {"name": "网络安全合规评估", "file": "网络安全合规评估-NetworkComplianceAssessment.md", "difficulty": "★★★"},
+        {"name": "AI Agent安全审计", "file": "AI Agent安全审计-AIAgentSecurityAudit.md", "difficulty": "★★★★"}
+      ]
+    },
+    {
+      "id": 15,
+      "name_cn": "应急响应",
+      "name_en": "Incident Response",
+      "emoji": "🚨",
+      "path": "15-应急响应-IncidentResponse",
+      "skill_count": 13,
+      "skills": [
+        {"name": "事件分类与优先级评估", "file": "事件分类与优先级评估-IncidentTriage.md", "difficulty": "★★★"},
+        {"name": "日志收集与分析", "file": "日志收集与分析-LogCollectionAnalysis.md", "difficulty": "★★★"},
+        {"name": "内存取证分析", "file": "内存取证分析-MemoryForensics.md", "difficulty": "★★★★★"},
+        {"name": "磁盘取证与数据恢复", "file": "磁盘取证与数据恢复-DiskForensicsDataRecovery.md", "difficulty": "★★★★"},
+        {"name": "网络流量分析", "file": "网络流量分析-NetworkTrafficAnalysis.md", "difficulty": "★★★★"},
+        {"name": "恶意样本分析", "file": "恶意样本分析-MalwareSampleAnalysis.md", "difficulty": "★★★★★"},
+        {"name": "事件遏制与清除", "file": "事件遏制与清除-ContainmentEradication.md", "difficulty": "★★★★"},
+        {"name": "勒索软件应急响应", "file": "勒索软件应急响应-RansomwareIncidentResponse.md", "difficulty": "★★★★★"},
+        {"name": "云环境应急响应", "file": "云环境应急响应-CloudIncidentResponse.md", "difficulty": "★★★★"},
+        {"name": "威胁狩猎", "file": "威胁狩猎-ThreatHunting.md", "difficulty": "★★★★★"},
+        {"name": "SOAR自动化响应", "file": "SOAR自动化响应-SOARAutomation.md", "difficulty": "★★★★"},
+        {"name": "事件复盘与报告", "file": "事件复盘与报告-LessonsLearnedReporting.md", "difficulty": "★★★"},
+        {"name": "AI安全应急响应", "file": "AI安全应急响应-AISecurityIncidentResponse.md", "difficulty": "★★★★"}
+      ]
+    },
+    {
+      "id": 16,
+      "name_cn": "大模型安全",
+      "name_en": "LLM Security",
+      "emoji": "🤖",
+      "path": "16-大模型安全-LLMSecurity",
+      "skill_count": 10,
+      "skills": [
+        {"name": "LLM提示注入与安全防护", "file": "LLM提示注入与安全防护-PromptInjectionDefense.md", "difficulty": "★★★★"},
+        {"name": "LLM数据泄露与隐私保护", "file": "LLM数据泄露与隐私保护-DataLeakagePrivacy.md", "difficulty": "★★★★"},
+        {"name": "AI供应链安全", "file": "AI供应链安全-AISupplyChainSecurity.md", "difficulty": "★★★"},
+        {"name": "大模型红队测试", "file": "大模型红队测试-LLMRedTeaming.md", "difficulty": "★★★★★"},
+        {"name": "AI Agent权限与访问控制", "file": "AI Agent权限与访问控制-AgentAuthorization.md", "difficulty": "★★★★"},
+        {"name": "模型对抗攻击与防御", "file": "模型对抗攻击与防御-AdversarialAttackDefense.md", "difficulty": "★★★★★"},
+        {"name": "模型输出安全与幻觉检测", "file": "模型输出安全与幻觉检测-OutputSafetyHallucination.md", "difficulty": "★★★"},
+        {"name": "AI应用安全配置审计", "file": "AI应用安全配置审计-AIAppSecurityConfig.md", "difficulty": "★★★"},
+        {"name": "联邦学习安全", "file": "联邦学习安全-FederatedLearningSecurity.md", "difficulty": "★★★★"},
+        {"name": "多模态AI安全", "file": "多模态AI安全-MultimodalAISecurity.md", "difficulty": "★★★★"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+# CyberSecurity-Skills 自动验证工作流
+# 每次 Push 和 PR 时验证 index.json 与实际文件的一致性
+name: Validate
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validate index.json against schema
+        run: |
+          pip install -q jsonschema
+          python -c "
+import json, sys
+from jsonschema import validate, ValidationError
+
+with open('index.json', 'r', encoding='utf-8') as f:
+    index = json.load(f)
+
+with open('index.schema.json', 'r', encoding='utf-8') as f:
+    schema = json.load(f)
+
+try:
+    validate(instance=index, schema=schema)
+    print('  index.json: ' + ('\u2705' if True else '') + ' Schema 验证通过')
+except ValidationError as e:
+    print('  index.json: ' + ('\u274c' if True else '') + f' Schema 验证失败: {e.message}')
+    sys.exit(1)
+"
+
+      - name: Run validate CLI
+        run: python skill_query.py validate
+
+      - name: Validate frontmatter in all skill files
+        run: |
+          python -c "
+import os, sys, re
+
+errors = []
+for root, dirs, files in os.walk('.'):
+    if root.endswith(os.sep + 'skills'):
+        for fname in sorted(files):
+            if not fname.endswith('.md'):
+                continue
+            fpath = os.path.join(root, fname)
+            with open(fpath, 'r', encoding='utf-8') as f:
+                content = f.read()
+            # 检查 YAML frontmatter
+            if not content.startswith('---'):
+                errors.append(f'{fpath}: 缺少 YAML frontmatter (应以 --- 开头)')
+                continue
+            # 提取 frontmatter
+            match = re.match(r'^---\n(.*?)\n---\n', content, re.DOTALL)
+            if not match:
+                errors.append(f'{fpath}: YAML frontmatter 格式错误')
+                continue
+            yaml_text = match.group(1)
+            # 检查必需字段
+            required = ['id:', 'title:', 'category:', 'difficulty:', 'tools:', 'last_updated:']
+            for field in required:
+                if field not in yaml_text:
+                    errors.append(f'{fpath}: 缺少字段 {field}')
+            # 检查 id 格式 (NN-NNN)
+            id_match = re.search(r'id:\s*\"(\d+-\d+)\"', yaml_text)
+            if not id_match:
+                errors.append(f'{fpath}: id 格式不正确 (应为 NN-NNN)')
+
+if errors:
+    print(f'发现 {len(errors)} 个问题:')
+    for e in errors:
+        print(f'  - {e}')
+    sys.exit(1)
+else:
+    print('  ' + ('\u2705' if True else '') + ' 所有技能文件 frontmatter 验证通过')
+"
+
+      - name: Check for broken relative links
+        run: |
+          python -c "
+import os, re, sys
+
+errors = []
+link_pattern = re.compile(r'\]\(([^)]+)\)')
+
+for root, dirs, files in os.walk('.'):
+    if '.git' in root:
+        continue
+    for fname in files:
+        if not fname.endswith('.md'):
+            continue
+        fpath = os.path.join(root, fname)
+        with open(fpath, 'r', encoding='utf-8') as f:
+            content = f.read()
+        for match in link_pattern.finditer(content):
+            link = match.group(1)
+            # 仅检查相对链接
+            if link.startswith('http://') or link.startswith('https://'):
+                continue
+            if link.startswith('#'):
+                continue
+            if link.startswith('mailto:'):
+                continue
+            # 解析相对路径
+            base_dir = os.path.dirname(fpath)
+            target = os.path.normpath(os.path.join(base_dir, link))
+            if not os.path.exists(target):
+                errors.append(f'{fpath}: 链接失效 -> {link}')
+
+if errors:
+    for e in errors[:20]:  # 最多显示 20 个
+        print(f'  - {e}')
+    sys.exit(1)
+else:
+    print('  ' + ('\u2705' if True else '') + ' 所有相对链接有效')
+"
