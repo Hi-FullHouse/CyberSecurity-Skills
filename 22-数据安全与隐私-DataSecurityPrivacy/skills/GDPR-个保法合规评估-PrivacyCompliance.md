@@ -1,13 +1,16 @@
 ---
-id: "22-004"
+id: 22-004
 title: "🌍 GDPR/个保法合规评估 (Privacy Compliance Assessment)"
-category: "数据安全与隐私"
+category: 数据安全与隐私
 category_en: "Data Security & Privacy"
-difficulty: "★★★★★"
+difficulty: ★★★★★
 tools: "OneTrust, TrustArc, DPIA Toolkit, CNIL PIA Tool, Securiti.ai"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["data-security", "privacy", "dlp", "gdpr", "encryption", "data-classification"]
+subdomain: data-security-privacy
+nist_csf: ["PR.DS-01", "PR.DS-02", "PR.DS-05", "ID.GV-03"]
+mitre_attack: ["T1530", "T1048", "T1567"]
 ---
-
 # 🌍 GDPR/个保法合规评估 (Privacy Compliance Assessment)
 
 ## 概述

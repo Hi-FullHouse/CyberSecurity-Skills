@@ -1,13 +1,16 @@
 ---
-id: "22-002"
+id: 22-002
 title: "🛡️ DLP数据防泄漏策略 (Data Loss Prevention)"
-category: "数据安全与隐私"
+category: 数据安全与隐私
 category_en: "Data Security & Privacy"
-difficulty: "★★★★"
+difficulty: ★★★★
 tools: "Microsoft DLP, Symantec DLP, Digital Guardian, Forcepoint DLP, OpenDLP"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["data-security", "privacy", "dlp", "gdpr", "encryption", "data-classification"]
+subdomain: data-security-privacy
+nist_csf: ["PR.DS-01", "PR.DS-02", "PR.DS-05", "ID.GV-03"]
+mitre_attack: ["T1530", "T1048", "T1567"]
 ---
-
 # 🛡️ DLP数据防泄漏策略 (Data Loss Prevention)
 
 ## 概述

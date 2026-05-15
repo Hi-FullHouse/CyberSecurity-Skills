@@ -1,11 +1,15 @@
 ---
-id: "16-010"
+id: 16-010
 title: "🤝 联邦学习安全 (Federated Learning Security)"
-category: "大模型安全"
+category: 大模型安全
 category_en: "LLM Security"
-difficulty: "★★★★"
+difficulty: ★★★★
 tools: "TensorFlow Federated, PySyft, FATE, 安全聚合"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["llm-security", "ai-security", "prompt-injection", "model-security", "ai-agent"]
+subdomain: llm-security
+nist_csf: ["PR.AC-01", "PR.DS-01", "DE.CM-01"]
+mitre_attack: []
 ---
 # 🤝 联邦学习安全 (Federated Learning Security)
 

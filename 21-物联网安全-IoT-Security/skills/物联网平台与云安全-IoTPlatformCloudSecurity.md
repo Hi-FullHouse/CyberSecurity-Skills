@@ -1,11 +1,15 @@
 ---
-id: "21-005"
+id: 21-005
 title: "☁️ 物联网平台与云安全 (IoT Platform & Cloud Security)"
-category: "物联网安全"
+category: 物联网安全
 category_en: "IoT Security"
-difficulty: "★★★★"
+difficulty: ★★★★
 tools: "AWS IoT Auditor, Azure IoT Hub Security, GCP IoT Core, TLS Notary"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["iot-security", "firmware", "embedded", "ble", "zigbee", "hardware-security"]
+subdomain: iot-security
+nist_csf: ["PR.AC-01", "PR.DS-03", "PR.PT-01"]
+mitre_attack: ["T1465", "T1559", "T1524"]
 ---
 # ☁️ 物联网平台与云安全 (IoT Platform & Cloud Security)
 

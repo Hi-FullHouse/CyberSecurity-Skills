@@ -1,11 +1,15 @@
 ---
-id: "17-008"
+id: 17-008
 title: "🔄 多云安全策略评估 (Multi-Cloud Security Strategy)"
-category: "云安全"
+category: 云安全
 category_en: "Cloud Security"
-difficulty: "★★★★★"
+difficulty: ★★★★★
 tools: "Prisma Cloud, Wiz, Orca Security, Lacework, Aqua Security"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["cloud-security", "aws", "azure", "gcp", "cloud-iam", "cloud-network"]
+subdomain: cloud-security
+nist_csf: ["PR.AC-01", "PR.DS-05", "PR.PT-01"]
+mitre_attack: ["T1525", "T1613", "T1537"]
 ---
 # 🔄 多云安全策略评估 (Multi-Cloud Security Strategy)
 

@@ -1,11 +1,15 @@
 ---
-id: "21-001"
+id: 21-001
 title: "🔧 固件逆向与分析 (Firmware Reverse Engineering)"
-category: "物联网安全"
+category: 物联网安全
 category_en: "IoT Security"
-difficulty: "★★★★★"
+difficulty: ★★★★★
 tools: "Binwalk, Firmadyne, Ghidra, QEMU, GDB, JTAGulator"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["iot-security", "firmware", "embedded", "ble", "zigbee", "hardware-security"]
+subdomain: iot-security
+nist_csf: ["PR.AC-01", "PR.DS-03", "PR.PT-01"]
+mitre_attack: ["T1465", "T1559", "T1524"]
 ---
 # 🔧 固件逆向与分析 (Firmware Reverse Engineering)
 

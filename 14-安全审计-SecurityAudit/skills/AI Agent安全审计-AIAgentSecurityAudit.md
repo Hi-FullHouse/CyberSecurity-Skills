@@ -1,11 +1,15 @@
 ---
-id: "14-001"
+id: 14-001
 title: "🤖 AI Agent安全审计 (AI Agent Security Audit)"
-category: "安全审计"
+category: 安全审计
 category_en: "Security Audit"
-difficulty: "★★★★"
+difficulty: ★★★★
 tools: "OWASP LLM VS, CSA CCM, Prowler, Garak"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["compliance", "等级保护", "security-audit", "classification", "government-standard"]
+subdomain: security-audit
+nist_csf: ["ID.GV-01", "ID.RM-01", "ID.SC-01"]
+mitre_attack: []
 ---
 # 🤖 AI Agent安全审计 (AI Agent Security Audit)
 

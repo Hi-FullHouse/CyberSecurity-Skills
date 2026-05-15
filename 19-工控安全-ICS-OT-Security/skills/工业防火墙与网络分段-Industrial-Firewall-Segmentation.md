@@ -1,11 +1,15 @@
 ---
-id: "19-006"
+id: 19-006
 title: "🔒 工业防火墙与网络分段 (Industrial Firewall & Segmentation)"
-category: "工控安全"
+category: 工控安全
 category_en: "ICS/OT Security"
-difficulty: "★★★★"
+difficulty: ★★★★
 tools: "Tofino Security, Claroty, Nozomi, pfSense, iptables"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["ics-security", "ot-security", "scada", "plc", "iec-62443", "industrial-security"]
+subdomain: ics-ot-security
+nist_csf: ["PR.AC-01", "PR.DS-07", "PR.PT-01"]
+mitre_attack: ["T0843", "T0839", "T0881", "T0855"]
 ---
 # 🔒 工业防火墙与网络分段 (Industrial Firewall & Segmentation)
 

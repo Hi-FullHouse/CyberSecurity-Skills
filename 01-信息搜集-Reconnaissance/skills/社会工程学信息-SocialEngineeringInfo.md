@@ -1,11 +1,15 @@
 ---
-id: "01-005"
+id: 01-005
 title: "👥 社会工程学信息收集 (Social Engineering Information Gathering)"
-category: "信息搜集"
-category_en: "Reconnaissance"
-difficulty: "★★★★"
+category: 信息搜集
+category_en: Reconnaissance
+difficulty: ★★★★
 tools: "theHarvester, Sherlock, Maltego"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["reconnaissance", "osint", "information-gathering", "dns-enumeration", "passive-recon"]
+subdomain: reconnaissance
+nist_csf: ["ID.AM-01", "ID.AM-04", "DE.CM-01"]
+mitre_attack: ["T1595", "T1592", "T1590", "T1596"]
 ---
 # 👥 社会工程学信息收集 (Social Engineering Information Gathering)
 

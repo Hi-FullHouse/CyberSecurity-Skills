@@ -1,11 +1,15 @@
 ---
-id: "11-001"
+id: 11-001
 title: "📶 Wi-Fi安全审计 (Wi-Fi Security Audit)"
-category: "无线安全"
+category: 无线安全
 category_en: "Wireless Security"
-difficulty: "★★★"
+difficulty: ★★★
 tools: "Aircrack-ng, Wireshark, Airodump-ng, Hashcat"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["wireless-security", "wifi", "wpa", "network-audit"]
+subdomain: wireless-security
+nist_csf: ["PR.AC-01", "PR.DS-02"]
+mitre_attack: ["T1559", "T1465"]
 ---
 # 📶 Wi-Fi安全审计 (Wi-Fi Security Audit)
 

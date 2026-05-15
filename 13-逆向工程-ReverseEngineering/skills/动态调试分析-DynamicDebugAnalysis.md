@@ -1,11 +1,15 @@
 ---
-id: "13-001"
+id: 13-001
 title: "⚙️ 动态调试分析 (Dynamic Debug Analysis)"
-category: "逆向工程"
+category: 逆向工程
 category_en: "Reverse Engineering"
-difficulty: "★★★★"
+difficulty: ★★★★
 tools: "x64dbg, OllyDbg, GDB, WinDbg, Immunity"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["reverse-engineering", "malware-analysis", "debugging", "static-analysis"]
+subdomain: reverse-engineering
+nist_csf: ["DE.CM-04", "DE.AE-02"]
+mitre_attack: ["T1204", "T1036"]
 ---
 # ⚙️ 动态调试分析 (Dynamic Debug Analysis)
 

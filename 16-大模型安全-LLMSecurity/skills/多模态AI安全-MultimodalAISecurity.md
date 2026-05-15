@@ -1,11 +1,15 @@
 ---
-id: "16-006"
+id: 16-006
 title: "🎨 多模态AI安全 (Multimodal AI Security)"
-category: "大模型安全"
+category: 大模型安全
 category_en: "LLM Security"
-difficulty: "★★★★"
+difficulty: ★★★★
 tools: "对抗样本工具, 多模态检测器, CLIP, Stable Diffusion"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["llm-security", "ai-security", "prompt-injection", "model-security", "ai-agent"]
+subdomain: llm-security
+nist_csf: ["PR.AC-01", "PR.DS-01", "DE.CM-01"]
+mitre_attack: []
 ---
 # 🎨 多模态AI安全 (Multimodal AI Security)
 

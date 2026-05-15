@@ -1,11 +1,15 @@
 ---
-id: "16-007"
+id: 16-007
 title: "🎯 大模型红队测试 (LLM Red Teaming)"
-category: "大模型安全"
+category: 大模型安全
 category_en: "LLM Security"
-difficulty: "★★★★★"
+difficulty: ★★★★★
 tools: "Garak, Counterfit, ART, PyRIT, LLM Red Team"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["llm-security", "ai-security", "prompt-injection", "model-security", "ai-agent"]
+subdomain: llm-security
+nist_csf: ["PR.AC-01", "PR.DS-01", "DE.CM-01"]
+mitre_attack: []
 ---
 # 🎯 大模型红队测试 (LLM Red Teaming)
 

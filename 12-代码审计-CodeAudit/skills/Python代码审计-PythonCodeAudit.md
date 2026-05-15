@@ -1,11 +1,15 @@
 ---
-id: "12-008"
+id: 12-008
 title: "🐍 Python代码审计 (Python Code Audit)"
-category: "代码审计"
+category: 代码审计
 category_en: "Code Audit"
-difficulty: "★★★"
+difficulty: ★★★
 tools: "Bandit, Semgrep, Pyre, CodeQL"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["code-audit", "static-analysis", "php-audit", "java-audit", "javascript-audit"]
+subdomain: code-audit
+nist_csf: ["PR.IP-12", "ID.RA-01"]
+mitre_attack: []
 ---
 # 🐍 Python代码审计 (Python Code Audit)
 

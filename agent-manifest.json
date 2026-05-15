@@ -3,9 +3,9 @@
   "agent_manifest_version": "1.1.0",
   "project": {
     "name": "CyberSecurity-Skills",
-    "description": "网络安全渗透测试全流程技能库 — 26大阶段，153个技能",
-    "total_skills": 153,
-    "total_modules": 26,
+"description": "网络安全渗透测试全流程技能库 — 39大模块，195个技能",
+    "total_skills": 195,
+    "total_modules": 39,
     "language": "zh-CN",
     "framework": "PTES (Penetration Testing Execution Standard)",
     "standards": [
@@ -60,7 +60,7 @@
     {
       "purpose": "获取所有模块概览",
       "agent_command": "python skill_query.py list-modules",
-"description": "输出所有26个安全模块的ID、名称、技能数量和路径"
+"description": "输出所有39个安全模块的ID、名称、技能数量和路径"
     },
     {
       "purpose": "搜索与 'SQL注入' 相关的所有技能",
@@ -70,7 +70,7 @@
     {
       "purpose": "获取应急响应模块的完整技能列表",
       "agent_command": "python skill_query.py list-skills --module 15",
-      "description": "输出模块15（应急响应）的所有13个技能"
+"description": "输出模块15（应急响应）的所有7个技能"
     },
     {
       "purpose": "验证索引一致性",
@@ -82,7 +82,7 @@
   "skill_file_format": {
     "frontmatter": {
       "description": "每个技能文件顶部包含YAML frontmatter，用于机器解析",
-      "fields": ["id", "title", "category", "category_en", "difficulty", "tools", "last_updated"]
+      "fields": ["id", "title", "category", "category_en", "difficulty", "tools", "last_updated", "tags", "subdomain", "nist_csf", "mitre_attack"]
     },
     "sections": [
       "概述 (overview)",

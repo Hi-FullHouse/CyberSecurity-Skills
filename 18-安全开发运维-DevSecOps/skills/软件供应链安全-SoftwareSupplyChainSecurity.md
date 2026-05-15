@@ -1,11 +1,15 @@
 ---
-id: "18-005"
+id: 18-005
 title: "🔗 软件供应链安全 (Software Supply Chain Security)"
-category: "安全开发运维"
-category_en: "DevSecOps"
-difficulty: "★★★★"
+category: 安全开发运维
+category_en: DevSecOps
+difficulty: ★★★★
 tools: "Snyk, Dependabot, Trivy, SBOM, Sigstore, OWASP DC"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["devsecops", "ci-cd", "sast", "dast", "iac-security", "supply-chain"]
+subdomain: devsecops
+nist_csf: ["PR.IP-12", "ID.RA-01", "DE.CM-08"]
+mitre_attack: []
 ---
 # 🔗 软件供应链安全 (Software Supply Chain Security)
 

@@ -1,11 +1,15 @@
 ---
-id: "15-003"
+id: 15-003
 title: "📋 事件分类与优先级评估 (Incident Triage & Prioritization)"
-category: "应急响应"
+category: 应急响应
 category_en: "Incident Response"
-difficulty: "★★★"
+difficulty: ★★★
 tools: "事件管理平台, SIRP工具, TheHive"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["incident-response", "forensics", "memory-forensics", "threat-hunting", "ransomware"]
+subdomain: incident-response
+nist_csf: ["RS.RP-01", "RS.CO-02", "RS.AN-01", "RS.MI-01"]
+mitre_attack: ["T1486", "T1490", "T1485", "T1562"]
 ---
 # 📋 事件分类与优先级评估 (Incident Triage & Prioritization)
 

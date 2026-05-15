@@ -1,11 +1,15 @@
 ---
-id: "09-005"
+id: 09-005
 title: "📊 漏洞评级与CVSS评分 (Vulnerability Rating & CVSS Scoring)"
-category: "报告撰写"
-category_en: "Reporting"
-difficulty: "★★★"
+category: 报告撰写
+category_en: Reporting
+difficulty: ★★★
 tools: "CVSS 3.1/4.0, DREAD, OWASP Risk Rating"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["reporting", "documentation", "cvss", "pentest-report", "markdown"]
+subdomain: reporting
+nist_csf: ["ID.GV-01", "ID.SC-03"]
+mitre_attack: []
 ---
 # 📊 漏洞评级与CVSS评分 (Vulnerability Rating & CVSS Scoring)
 

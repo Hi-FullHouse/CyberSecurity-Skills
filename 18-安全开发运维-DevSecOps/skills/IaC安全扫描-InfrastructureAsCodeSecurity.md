@@ -1,11 +1,15 @@
 ---
-id: "18-002"
+id: 18-002
 title: "📦 IaC安全扫描 (Infrastructure as Code Security)"
-category: "安全开发运维"
-category_en: "DevSecOps"
-difficulty: "★★★"
+category: 安全开发运维
+category_en: DevSecOps
+difficulty: ★★★
 tools: "Checkov, Terrascan, tfsec, KICS, cfn-nag, kube-lint"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["devsecops", "ci-cd", "sast", "dast", "iac-security", "supply-chain"]
+subdomain: devsecops
+nist_csf: ["PR.IP-12", "ID.RA-01", "DE.CM-08"]
+mitre_attack: []
 ---
 # 📦 IaC安全扫描 (Infrastructure as Code Security)
 

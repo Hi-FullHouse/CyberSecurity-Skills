@@ -1,13 +1,16 @@
 ---
-id: "25-006"
+id: 25-006
 title: "🎯 供应链攻击检测与响应 (Supply Chain Attack Detection & Response)"
-category: "供应链安全"
+category: 供应链安全
 category_en: "Supply Chain Security"
-difficulty: "★★★★"
+difficulty: ★★★★
 tools: "GuardDog, GraphQL API Security, Falco, Network Policy, OPA"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["supply-chain-security", "sbom", "dependency-check", "container-image", "third-party-risk"]
+subdomain: supply-chain-security
+nist_csf: ["ID.SC-01", "ID.SC-02", "PR.DS-10"]
+mitre_attack: ["T1195", "T1525"]
 ---
-
 # 🎯 供应链攻击检测与响应 (Supply Chain Attack Detection & Response)
 
 ## 概述

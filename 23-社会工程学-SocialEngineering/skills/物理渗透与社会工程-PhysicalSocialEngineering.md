@@ -1,13 +1,16 @@
 ---
-id: "23-003"
+id: 23-003
 title: "🏢 物理渗透与社会工程 (Physical Social Engineering)"
-category: "社会工程学"
+category: 社会工程学
 category_en: "Social Engineering"
-difficulty: "★★★★"
+difficulty: ★★★★
 tools: "Pretexting Framework, Badge Clone, Lockpick Set, RFID Cloner"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["social-engineering", "phishing", "vishing", "physical-security", "awareness"]
+subdomain: social-engineering
+nist_csf: ["PR.AT-01", "PR.AT-02"]
+mitre_attack: ["T1566", "T1598", "T1204"]
 ---
-
 # 🏢 物理渗透与社会工程 (Physical Social Engineering)
 
 ## 概述

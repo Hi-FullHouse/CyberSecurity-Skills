@@ -1,13 +1,16 @@
 ---
-id: "07-003"
+id: 07-003
 title: "账户创建与凭证持久化 (Account Persistence)"
-category: "持久化"
-category_en: "Persistence"
-difficulty: "★★★"
+category: 持久化
+category_en: Persistence
+difficulty: ★★★
 tools: "net user, dsquery, ssh-keygen, Azure AD, IAM"
-last_updated: "2026-05"
+last_updated: 2026-05
+tags: ["persistence", "bootkit", "startup-autostart", "account-persistence"]
+subdomain: persistence
+nist_csf: ["PR.AC-01", "DE.CM-01"]
+mitre_attack: ["T1543", "T1547", "T1136", "T1053"]
 ---
-
 # 账户创建与凭证持久化 (Account Persistence)
 
 ## 概述

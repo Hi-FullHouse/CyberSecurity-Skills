@@ -1,11 +1,15 @@
 ---
-id: "10-002"
+id: 10-002
 title: "🍎 iOS安全测试 (iOS Security Testing)"
-category: "移动安全"
+category: 移动安全
 category_en: "Mobile Security"
-difficulty: "★★★★★"
+difficulty: ★★★★★
 tools: "Frida, Objection, class-dump, Ghidra, checkra1n"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["mobile-security", "android", "ios", "mobile-audit"]
+subdomain: mobile-security
+nist_csf: ["PR.AC-01", "PR.DS-03", "PR.PT-01"]
+mitre_attack: ["T1475", "T1514", "T1529", "T1204"]
 ---
 # 🍎 iOS安全测试 (iOS Security Testing)
 

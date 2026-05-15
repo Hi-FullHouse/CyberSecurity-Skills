@@ -1,13 +1,16 @@
 ---
-id: "07-004"
+id: 07-004
 title: "Office应用程序持久化 (Office Application Persistence)"
-category: "持久化"
-category_en: "Persistence"
-difficulty: "★★★★"
+category: 持久化
+category_en: Persistence
+difficulty: ★★★★
 tools: "Office, VBA, COM, Outlook, Add-in"
-last_updated: "2026-05"
+last_updated: 2026-05
+tags: ["persistence", "bootkit", "startup-autostart", "account-persistence"]
+subdomain: persistence
+nist_csf: ["PR.AC-01", "DE.CM-01"]
+mitre_attack: ["T1543", "T1547", "T1136", "T1053"]
 ---
-
 # Office应用程序持久化 (Office Application Persistence)
 
 ## 概述

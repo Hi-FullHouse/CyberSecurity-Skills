@@ -1,13 +1,16 @@
 ---
-id: "07-002"
+id: 07-002
 title: "启动项与登录自动执行 (Boot/Logon Autostart)"
-category: "持久化"
-category_en: "Persistence"
-difficulty: "★★★"
+category: 持久化
+category_en: Persistence
+difficulty: ★★★
 tools: "Regedit, Autoruns, schtasks, systemd, launchd"
-last_updated: "2026-05"
+last_updated: 2026-05
+tags: ["persistence", "bootkit", "startup-autostart", "account-persistence"]
+subdomain: persistence
+nist_csf: ["PR.AC-01", "DE.CM-01"]
+mitre_attack: ["T1543", "T1547", "T1136", "T1053"]
 ---
-
 # 启动项与登录自动执行 (Boot/Logon Autostart)
 
 ## 概述

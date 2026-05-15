@@ -1,11 +1,11 @@
 # 🔒 CyberSecurity-Skills · 网络安全技能库
 
-> **渗透测试全流程技能体系** — 26大阶段，153个安全技能，覆盖完整攻击面与防御面
+> **网络安全全流程技能体系** — 39大模块，195个安全技能，覆盖完整攻击面与防御面
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Agent Ready](https://img.shields.io/badge/Agent-Ready-8A2BE2)](agent-manifest.json)
-[![Skills](https://img.shields.io/badge/skills-153-success)](index.json)
+[![Skills](https://img.shields.io/badge/skills-195-success)](index.json)
 [![CLI](https://img.shields.io/badge/CLI-✓-blue)](skill_query.py)
 [![Validate](https://img.shields.io/badge/build-validated-brightgreen)](.github/workflows/validate.yml)
 
@@ -53,17 +53,30 @@ CyberSecurity-Skills/
 ├── 23-社会工程学-SocialEngineering/      # 社会工程学攻击与防御
 ├── 24-红蓝对抗-RedBlueTeam/             # 红蓝对抗与BAS模拟
 ├── 25-供应链安全-SupplyChainSecurity/    # 软件供应链安全
-└── 26-漏洞管理-VulnerabilityManagement/  # 漏洞全生命周期管理
+├── 26-漏洞管理-VulnerabilityManagement/  # 漏洞全生命周期管理
+├── 27-操作系统安全-OSSecurity/           # 操作系统安全加固与攻击防御
+├── 28-威胁狩猎-ThreatHunting/            # 主动威胁狩猎与检测工程
+├── 29-威胁情报-ThreatIntelligence/       # 威胁情报收集与分析
+├── 30-数字取证-DigitalForensics/         # 数字取证与证据分析
+├── 31-SOC运营-SOCOperations/             # 安全运营中心运营
+├── 32-身份访问管理-IAM/                  # 身份与访问管理
+├── 33-容器安全-ContainerSecurity/         # 容器与Kubernetes安全
+├── 34-API安全-APISecurity/                # API安全测试与防护
+├── 35-密码学与PKI-CryptographyPKI/        # 密码学与公钥基础设施
+├── 36-零信任架构-ZeroTrust/               # 零信任架构设计与实施
+├── 37-端点安全-EndpointSecurity/          # 端点检测与加固
+├── 38-勒索软件防御-RansomwareDefense/     # 勒索软件攻击链与防御
+└── 39-安全治理合规-GovernanceCompliance/  # 安全治理与合规审计
 ```
 
 ---
 
-## 🗂️ 渗透测试全流程（26大阶段，共153个技能）
+## 🗂️ 安全模块全览（39大模块，共195个技能）
 
 | 阶段 | 中文名称 | 英文名称 | 技能数 |
 |:---:|:---|:---|:---:|
 | 01 | 🔍 信息搜集 | Reconnaissance | 7 |
-| 02 | 📡 漏洞扫描 | Vulnerability Scanning | 7 |
+| 02 | 📡 漏洞扫描 | Vulnerability Scanning | 6 |
 | 03 | 💥 漏洞利用 | Exploitation | 9 |
 | 04 | ⬆️ 权限提升 | Privilege Escalation | 4 |
 | 05 | 🕵️ 后渗透 | Post-Exploitation | 4 |
@@ -76,7 +89,7 @@ CyberSecurity-Skills/
 | 12 | 🔬 代码审计 | Code Audit | 9 |
 | 13 | ⚙️ 逆向工程 | Reverse Engineering | 3 |
 | 14 | 🛡️ 安全审计 | Security Audit | 7 |
-| 15 | 🚨 应急响应 | Incident Response | 13 |
+| 15 | 🚨 应急响应 | Incident Response | 7 |
 | 16 | 🤖 大模型安全 | LLM Security | 10 |
 | 17 | ☁️ 云安全 | Cloud Security | 8 |
 | 18 | 🔄 安全开发运维 | DevSecOps | 6 |
@@ -86,9 +99,22 @@ CyberSecurity-Skills/
 | 22 | 🔐 数据安全与隐私 | Data Security & Privacy | 6 |
 | 23 | 🎭 社会工程学 | Social Engineering | 5 |
 | 24 | ⚔️ 红蓝对抗 | Red/Blue Team | 5 |
-| 25 | 🔗 供应链安全 | Supply Chain Security | 6 |
+| 25 | 🔗 供应链安全 | Supply Chain Security | 5 |
 | 26 | 🛡️ 漏洞管理 | Vulnerability Management | 6 |
-| | | **总计** | **153** |
+| 27 | 🖥️ 操作系统安全 | OS Security | 6 |
+| 28 | 🎯 威胁狩猎 | Threat Hunting | 4 |
+| 29 | 🌐 威胁情报 | Threat Intelligence | 4 |
+| 30 | 🔎 数字取证 | Digital Forensics | 5 |
+| 31 | 🖥️ SOC运营 | SOC Operations | 4 |
+| 32 | 🔑 身份与访问管理 | Identity & Access Management | 4 |
+| 33 | 🐳 容器安全 | Container Security | 4 |
+| 34 | 🔌 API安全 | API Security | 3 |
+| 35 | 🔐 密码学与PKI | Cryptography & PKI | 3 |
+| 36 | 🛡️ 零信任架构 | Zero Trust Architecture | 3 |
+| 37 | 💻 端点安全 | Endpoint Security | 4 |
+| 38 | 💰 勒索软件防御 | Ransomware Defense | 3 |
+| 39 | 📋 安全治理与合规 | Governance & Compliance | 3 |
+| | | **总计** | **195** |
 
 ---
 
@@ -113,10 +139,9 @@ CyberSecurity-Skills/
 | 1 | 📡 Web漏洞扫描 | `Web漏洞扫描-WebVulnScan.md` |
 | 2 | 🌐 网络漏洞扫描 | `网络漏洞扫描-NetworkVulnScan.md` |
 | 3 | 🗄️ 数据库安全评估 | `数据库安全评估-DatabaseAssessment.md` |
-| 4 | 🔌 API安全测试 | `API安全测试-APISecurityTest.md` |
-| 5 | 🔧 配置审计扫描 | `配置审计扫描-ConfigAuditScan.md` |
-| 6 | 🤖 漏洞扫描器自动化 | `漏洞扫描器自动化-VulnScannerAutomation.md` |
-| 7 | 🤖 AI代理漏洞扫描 | `AI代理漏洞扫描-AIAgentVulnScan.md` |
+| 4 | 🔧 配置审计扫描 | `配置审计扫描-ConfigAuditScan.md` |
+| 5 | 🤖 漏洞扫描器自动化 | `漏洞扫描器自动化-VulnScannerAutomation.md` |
+| 6 | 🤖 AI代理漏洞扫描 | `AI代理漏洞扫描-AIAgentVulnScan.md` |
 
 ### 阶段 03 · 💥 漏洞利用 (Exploitation)
 
@@ -240,17 +265,11 @@ CyberSecurity-Skills/
 |:---:|:---|:---|
 | 1 | 📋 事件分类与优先级评估 | `事件分类与优先级评估-IncidentTriage.md` |
 | 2 | 📜 日志收集与分析 | `日志收集与分析-LogCollectionAnalysis.md` |
-| 3 | 🧠 内存取证分析 | `内存取证分析-MemoryForensics.md` |
-| 4 | 💾 磁盘取证与数据恢复 | `磁盘取证与数据恢复-DiskForensicsDataRecovery.md` |
-| 5 | 🌐 网络流量分析 | `网络流量分析-NetworkTrafficAnalysis.md` |
-| 6 | 🦠 恶意样本分析 | `恶意样本分析-MalwareSampleAnalysis.md` |
-| 7 | 🛑 事件遏制与清除 | `事件遏制与清除-ContainmentEradication.md` |
-| 8 | 💰 勒索软件应急响应 | `勒索软件应急响应-RansomwareIncidentResponse.md` |
-| 9 | ☁️ 云环境应急响应 | `云环境应急响应-CloudIncidentResponse.md` |
-| 10 | 🔎 威胁狩猎 | `威胁狩猎-ThreatHunting.md` |
-| 11 | 🤖 SOAR自动化响应 | `SOAR自动化响应-SOARAutomation.md` |
-| 12 | 📝 事件复盘与报告 | `事件复盘与报告-LessonsLearnedReporting.md` |
-| 13 | 🤖 AI安全应急响应 | `AI安全应急响应-AISecurityIncidentResponse.md` |
+| 3 | 🌐 网络流量分析 | `网络流量分析-NetworkTrafficAnalysis.md` |
+| 4 | 🛑 事件遏制与清除 | `事件遏制与清除-ContainmentEradication.md` |
+| 5 | ☁️ 云环境应急响应 | `云环境应急响应-CloudIncidentResponse.md` |
+| 6 | 📝 事件复盘与报告 | `事件复盘与报告-LessonsLearnedReporting.md` |
+| 7 | 🤖 AI安全应急响应 | `AI安全应急响应-AISecurityIncidentResponse.md` |
 
 ### 阶段 16 · 🤖 大模型安全 (LLM Security)
 
@@ -362,9 +381,8 @@ CyberSecurity-Skills/
 | 1 | 📦 SBOM生成与验证 | `SBOM生成与验证-SBOMGeneration.md` |
 | 2 | 🔍 软件依赖与开源合规审计 | `软件依赖与开源合规审计-DependencyLicenseCompliance.md` |
 | 3 | ✍️ 代码签名与供应链完整性 | `代码签名与供应链完整性-CodeSigningIntegrity.md` |
-| 4 | 🐳 容器镜像安全扫描 | `容器镜像安全扫描-ContainerImageScan.md` |
-| 5 | 🤝 第三方供应商风险评估 | `第三方供应商风险评估-ThirdPartyVendorRisk.md` |
-| 6 | 🚨 供应链攻击检测与响应 | `供应链攻击检测与响应-SupplyChainAttackResponse.md` |
+| 4 | 🤝 第三方供应商风险评估 | `第三方供应商风险评估-ThirdPartyVendorRisk.md` |
+| 5 | 🚨 供应链攻击检测与响应 | `供应链攻击检测与响应-SupplyChainAttackResponse.md` |
 
 ### 阶段 26 · 🛡️ 漏洞管理 (Vulnerability Management)
 
@@ -376,6 +394,121 @@ CyberSecurity-Skills/
 | 4 | 🔧 漏洞修复与补丁管理 | `漏洞修复与补丁管理-VulnerabilityRemediation.md` |
 | 5 | ♻️ 漏洞生命周期闭环管理 | `漏洞生命周期闭环管理-VulnerabilityLifecycle.md` |
 | 6 | 🏆 漏洞奖励计划与安全众测 | `漏洞奖励计划与安全众测-BugBountyCrowdsourcedTesting.md` |
+
+### 阶段 27 · 🖥️ 操作系统安全 (OS Security)
+
+| # | 技能名称 | 文件名 |
+|:---:|:---|:---|
+| 1 | 🛡️ Windows安全加固与基线检查 | `Windows安全加固与基线检查-WindowsHardeningBaseline.md` |
+| 2 | ⚔️ Windows攻击与横向移动技术 | `Windows攻击与横向移动技术-WindowsAttackLateralMovement.md` |
+| 3 | 🔒 Linux安全加固与基线检查 | `Linux安全加固与基线检查-LinuxHardeningBaseline.md` |
+| 4 | 🗡️ Linux攻击与权限维持技术 | `Linux攻击与权限维持技术-LinuxAttackPersistence.md` |
+| 5 | 🍎 macOS安全评估与加固 | `macOS安全评估与加固-macOSSecurityHardening.md` |
+| 6 | 🇨🇳 国产操作系统安全加固 | `国产操作系统安全加固-DomesticOSSecurity.md` |
+
+### 阶段 28 · 🎯 威胁狩猎 (Threat Hunting)
+
+| # | 技能名称 | 文件名 |
+|:---:|:---|:---|
+| 1 | 🎯 威胁狩猎方法论与假设驱动 | `威胁狩猎方法论-ThreatHuntingMethodology.md` |
+| 2 | 📜 基于Sigma规则的检测工程 | `Sigma规则检测工程-SigmaRuleEngineering.md` |
+| 3 | 🗺️ 基于ATT&CK的威胁狩猎 | `ATT&CK威胁狩猎-MITREAttackHunting.md` |
+| 4 | 🌊 网络流量与日志异常检测 | `网络流量与日志异常检测-TrafficLogAnomalyDetection.md` |
+
+### 阶段 29 · 🌐 威胁情报 (Threat Intelligence)
+
+| # | 技能名称 | 文件名 |
+|:---:|:---|:---|
+| 1 | 📡 威胁情报馈入与TAXII/STIX管理 | `威胁情报馈入与TAXII-STIX管理-ThreatIntelFeedsTAXIISTIX.md` |
+| 2 | 🔄 MISP平台部署与威胁情报共享 | `MISP部署与威胁情报共享-MISPDeploymentIntelSharing.md` |
+| 3 | 🕵️ APT组织分析与归因 | `APT组织分析与归因-APTGroupAnalysisAttribution.md` |
+| 4 | ⚡ 威胁情报驱动安全运营 | `威胁情报驱动安全运营-ThreatIntelDrivenSOC.md` |
+
+### 阶段 30 · 🔎 数字取证 (Digital Forensics)
+
+| # | 技能名称 | 文件名 |
+|:---:|:---|:---|
+| 1 | 💾 磁盘镜像与证据获取 | `磁盘镜像与证据获取-DiskImagingEvidenceAcquisition.md` |
+| 2 | 🧠 内存取证分析(Volatility) | `内存取证分析-Volatility-MemoryForensicsVolatility.md` |
+| 3 | 🪟 Windows数字取证分析 | `Windows数字取证分析-WindowsDigitalForensics.md` |
+| 4 | 🐧 Linux数字取证分析 | `Linux数字取证分析-LinuxDigitalForensics.md` |
+| 5 | 📧 浏览器与邮件取证 | `浏览器与邮件取证-BrowserEmailForensics.md` |
+
+### 阶段 31 · 🖥️ SOC运营 (SOC Operations)
+
+| # | 技能名称 | 文件名 |
+|:---:|:---|:---|
+| 1 | 📊 SIEM告警规则与关联分析 | `SIEM告警规则与关联分析-SIEMAlertCorrelation.md` |
+| 2 | 📋 SOC事件分级与响应流程 | `SOC事件分级与响应流程-SOCTriageResponse.md` |
+| 3 | 🤖 安全自动化与编排(SOAR) | `安全自动化与编排-SOAR-SecurityAutomationOrchestration.md` |
+| 4 | 📈 SOC指标与运营效能度量 | `SOC指标与运营效能度量-SOCMetricsKPIs.md` |
+
+### 阶段 32 · 🔑 身份与访问管理 (Identity & Access Management)
+
+| # | 技能名称 | 文件名 |
+|:---:|:---|:---|
+| 1 | 🏛️ 企业IAM策略与架构 | `企业IAM策略与架构-EnterpriseIAMStrategy.md` |
+| 2 | 🔐 PAM特权账号管理 | `PAM特权账号管理-PrivilegedAccessManagement.md` |
+| 3 | ☁️ 云IAM与联邦认证 | `云IAM与联邦认证-CloudIAMFederation.md` |
+| 4 | 🗡️ AD域安全与攻击路径分析 | `AD域安全与攻击路径分析-ADSecurityAttackPathAnalysis.md` |
+
+### 阶段 33 · 🐳 容器安全 (Container Security)
+
+| # | 技能名称 | 文件名 |
+|:---:|:---|:---|
+| 1 | 📦 容器镜像安全与漏洞扫描 | `容器镜像安全与漏洞扫描-ContainerImageSecurityScanning.md` |
+| 2 | 🔑 Kubernetes RBAC与安全策略 | `Kubernetes RBAC与安全策略-KubernetesRBACSecurityPolicy.md` |
+| 3 | 🛡️ 容器运行时安全(Falco) | `容器运行时安全-Falco-ContainerRuntimeSecurityFalco.md` |
+| 4 | 🏃 容器逃逸检测与防御 | `容器逃逸检测与防御-ContainerEscapeDetectionDefense.md` |
+
+### 阶段 34 · 🔌 API安全 (API Security)
+
+| # | 技能名称 | 文件名 |
+|:---:|:---|:---|
+| 1 | 🌐 OWASP API安全测试 | `OWASP API安全测试-OWASPAPISecurityTesting.md` |
+| 2 | 🔑 API认证与授权安全 | `API认证与授权安全-APIAuthAuthorizationSecurity.md` |
+| 3 | 📡 GraphQL与微服务API安全 | `GraphQL与微服务API安全-GraphQLMicroserviceAPISecurity.md` |
+
+### 阶段 35 · 🔐 密码学与PKI (Cryptography & PKI)
+
+| # | 技能名称 | 文件名 |
+|:---:|:---|:---|
+| 1 | 🔒 TLS/SSL安全配置与审计 | `TLS-SSL安全配置与审计-TLSSSLSecurityConfigurationAudit.md` |
+| 2 | 📜 PKI架构与证书安全管理 | `PKI架构与证书安全管理-PKIArchitectureCertificateManagement.md` |
+| 3 | 🗝️ 加密算法与密钥管理 | `加密算法与密钥管理-EncryptionAlgorithmsKeyManagement.md` |
+
+### 阶段 36 · 🛡️ 零信任架构 (Zero Trust Architecture)
+
+| # | 技能名称 | 文件名 |
+|:---:|:---|:---|
+| 1 | 🏛️ 零信任架构设计与实施 | `零信任架构设计与实施-ZeroTrustArchitectureDesign.md` |
+| 2 | 🔀 微隔离与软件定义边界(SDP) | `微隔离与软件定义边界-SDP-MicrosegmentationSDP.md` |
+| 3 | 🔗 ZTNA解决方案与IAM集成 | `ZTNA解决方案与IAM集成-ZTNASolutionsIAMIntegration.md` |
+
+### 阶段 37 · 💻 端点安全 (Endpoint Security)
+
+| # | 技能名称 | 文件名 |
+|:---:|:---|:---|
+| 1 | 🛡️ EDR部署与检测规则 | `EDR部署与检测规则-EDRDeploymentDetectionRules.md` |
+| 2 | 👻 文件less恶意软件与LOLBins检测 | `文件less恶意软件与LOLBins检测-FilelessMalwareLOLBinsDetection.md` |
+| 3 | 🔧 端点加固与合规基线 | `端点加固与合规基线-EndpointHardeningComplianceBaseline.md` |
+| 4 | 📱 移动设备安全与MDM | `移动设备安全与MDM-MobileDeviceSecurityMDM.md` |
+
+### 阶段 38 · 💰 勒索软件防御 (Ransomware Defense)
+
+| # | 技能名称 | 文件名 |
+|:---:|:---|:---|
+| 1 | 🔗 勒索软件攻击链分析与检测 | `勒索软件攻击链分析与检测-RansomwareAttackChainAnalysisDetection.md` |
+| 2 | 🚨 勒索软件应急响应与恢复 | `勒索软件应急响应与恢复-RansomwareIncidentResponseRecovery.md` |
+| 3 | 🛡️ 反勒索软件加固与备份策略 | `反勒索软件加固与备份策略-AntiRansomwareHardeningBackup.md` |
+
+### 阶段 39 · 📋 安全治理与合规 (Governance & Compliance)
+
+| # | 技能名称 | 文件名 |
+|:---:|:---|:---|
+| 1 | 📋 安全框架与合规审计 | `安全框架与合规审计-SecurityFrameworkComplianceAudit.md` |
+| 2 | 📊 风险管理与安全度量 | `风险管理与安全度量-RiskManagementSecurityMetrics.md` |
+| 3 | 🎓 安全策略体系与安全意识 | `安全策略体系与安全意识-SecurityPolicyAwareness.md` |
 
 ---
 

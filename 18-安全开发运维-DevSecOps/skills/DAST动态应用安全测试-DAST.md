@@ -1,11 +1,15 @@
 ---
-id: "18-004"
+id: 18-004
 title: "🌐 DAST动态应用安全测试 (Dynamic Application Security Testing)"
-category: "安全开发运维"
-category_en: "DevSecOps"
-difficulty: "★★★★"
+category: 安全开发运维
+category_en: DevSecOps
+difficulty: ★★★★
 tools: "OWASP ZAP, Burp Suite, Acunetix, Arachni, Nikto"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["devsecops", "ci-cd", "sast", "dast", "iac-security", "supply-chain"]
+subdomain: devsecops
+nist_csf: ["PR.IP-12", "ID.RA-01", "DE.CM-08"]
+mitre_attack: []
 ---
 # 🌐 DAST动态应用安全测试 (Dynamic Application Security Testing)
 

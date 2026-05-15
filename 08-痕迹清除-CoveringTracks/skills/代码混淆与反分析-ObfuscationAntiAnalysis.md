@@ -1,13 +1,16 @@
 ---
-id: "08-003"
+id: 08-003
 title: "代码混淆与反分析 (Code Obfuscation & Anti-Analysis)"
-category: "痕迹清除"
+category: 痕迹清除
 category_en: "Covering Tracks"
-difficulty: "★★★★"
+difficulty: ★★★★
 tools: "ConfuserEx, Obfuscator-LLVM, UPX, VMP, dnSpy, x64dbg"
-last_updated: "2026-05"
+last_updated: 2026-05
+tags: ["covering-tracks", "anti-forensics", "process-injection", "obfuscation"]
+subdomain: covering-tracks
+nist_csf: ["DE.CM-01", "PR.PT-01"]
+mitre_attack: ["T1070", "T1562", "T1055", "T1027"]
 ---
-
 # 代码混淆与反分析 (Code Obfuscation & Anti-Analysis)
 
 ## 概述

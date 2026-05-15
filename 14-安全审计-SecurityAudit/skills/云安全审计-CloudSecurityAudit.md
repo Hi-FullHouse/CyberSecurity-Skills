@@ -1,11 +1,15 @@
 ---
-id: "14-002"
+id: 14-002
 title: "☁️ 云安全审计 (Cloud Security Audit)"
-category: "安全审计"
+category: 安全审计
 category_en: "Security Audit"
-difficulty: "★★★★"
+difficulty: ★★★★
 tools: "ScoutSuite, Prowler, CloudSploit, Pacu"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["security-audit", "compliance", "cloud-audit", "container-audit", "network-audit"]
+subdomain: security-audit
+nist_csf: ["ID.GV-01", "ID.RM-01", "ID.SC-01"]
+mitre_attack: []
 ---
 # ☁️ 云安全审计 (Cloud Security Audit)
 

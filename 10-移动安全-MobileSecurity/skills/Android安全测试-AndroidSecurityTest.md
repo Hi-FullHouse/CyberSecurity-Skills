@@ -1,11 +1,15 @@
 ---
-id: "10-001"
+id: 10-001
 title: "📱 Android安全测试 (Android Security Testing)"
-category: "移动安全"
+category: 移动安全
 category_en: "Mobile Security"
-difficulty: "★★★"
+difficulty: ★★★
 tools: "drozer, Frida, APKTool, MobSF, Jadx"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["mobile-security", "android", "ios", "mobile-audit"]
+subdomain: mobile-security
+nist_csf: ["PR.AC-01", "PR.DS-03", "PR.PT-01"]
+mitre_attack: ["T1475", "T1514", "T1529", "T1204"]
 ---
 # 📱 Android安全测试 (Android Security Testing)
 

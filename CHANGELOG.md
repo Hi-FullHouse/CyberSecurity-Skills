@@ -5,6 +5,47 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.4.0] - 2026-05-15
+
+### Added
+- **新增12个模块（28-39）**：覆盖威胁狩猎、威胁情报、数字取证、SOC运营、IAM、容器安全、API安全、密码学与PKI、零信任架构、端点安全、勒索软件防御、安全治理与合规，共44个技能
+  - 模块28（威胁狩猎）：威胁狩猎方法论、Sigma规则工程、ATT&CK狩猎、流量异常检测
+  - 模块29（威胁情报）：TAXII/STIX管理、MISP平台、APT归因、情报驱动运营
+  - 模块30（数字取证）：磁盘镜像、Volatility内存分析、Windows/Linux取证、浏览器邮件取证
+  - 模块31（SOC运营）：SIEM关联分析、事件分级、SOAR自动化、SOC效能度量
+  - 模块32（IAM）：企业IAM策略、PAM、云IAM联邦、AD攻击路径分析
+  - 模块33（容器安全）：镜像扫描、K8s RBAC、Falco运行时、容器逃逸检测
+  - 模块34（API安全）：OWASP API测试、API认证授权、GraphQL微服务安全
+  - 模块35（密码学与PKI）：TLS/SSL配置、PKI证书管理、加密算法与密钥管理
+  - 模块36（零信任架构）：ZTA设计、微隔离SDP、ZTNA与IAM集成
+  - 模块37（端点安全）：EDR规则、文件less恶意软件、端点加固、移动安全MDM
+  - 模块38（勒索软件防御）：攻击链分析、应急响应、加固与备份策略
+  - 模块39（安全治理与合规）：框架审计、风险管理、策略与安全意识
+- **Frontmatter全面增强**：为全部195个技能文件添加 tags / subdomain / nist_csf / mitre_attack 字段
+- 新增 `scripts/enrich_frontmatter.py` — 批量frontmatter增强脚本
+- 新增模块28-39的 `README.md` 入口文件
+
+### Changed
+- 技能总数从159扩展至195，模块数从27扩展至39
+- 更新 `index.json`：版本 v2.4.0，`total_skills` 195，`total_modules` 39
+- 更新 `agent-manifest.json`：技能数更新至195，frontmatter字段新增4个
+- 更新根 `README.md`：目录树新增模块28-39，模块表格新增12行，全技能表新增阶段28-39
+
+### Added
+- **新增模块27（操作系统安全）**：覆盖 Windows/Linux/macOS/国产操作系统安全，6个技能
+  - Windows安全加固与基线检查（★★★）— CIS基准、GPO、Defender、Credential Guard、等保2.0
+  - Windows攻击与横向移动技术（★★★★）— Kerberos攻击、ACL滥用、DCSync、NTLM中继
+  - Linux安全加固与基线检查（★★★）— CIS基准、SELinux/AppArmor、auditd、内核参数
+  - Linux攻击与权限维持技术（★★★★）— Capabilities滥用、容器逃逸、systemd持久化、rootkit
+  - macOS安全评估与加固（★★★★）— SIP、TCC、XProtect、MDM策略
+  - 国产操作系统安全加固（★★★）— KylinOS、UOS、openEuler、SM2/SM3/SM4国密
+- 技能总数从153扩展至159，模块数从26扩展至27
+
+### Changed
+- 更新 `index.json`：版本 v2.3.0，`total_skills` 159，`total_modules` 27
+- 更新 `agent-manifest.json`：技能数更新至159
+- 更新根 `README.md`：目录树新增模块27，全技能表新增阶段27
+
 ## [2.2.1] - 2026-05-15
 
 ### Added

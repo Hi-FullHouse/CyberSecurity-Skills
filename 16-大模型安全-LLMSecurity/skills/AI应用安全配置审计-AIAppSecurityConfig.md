@@ -1,11 +1,15 @@
 ---
-id: "16-003"
+id: 16-003
 title: "⚙️ AI应用安全配置审计 (AI Application Security Configuration Audit)"
-category: "大模型安全"
+category: 大模型安全
 category_en: "LLM Security"
-difficulty: "★★★"
+difficulty: ★★★
 tools: "OWASP ASVS, CIS AI Benchmarks, Semgrep"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["llm-security", "ai-security", "prompt-injection", "model-security", "ai-agent"]
+subdomain: llm-security
+nist_csf: ["PR.AC-01", "PR.DS-01", "DE.CM-01"]
+mitre_attack: []
 ---
 # ⚙️ AI应用安全配置审计 (AI Application Security Configuration Audit)
 

@@ -1,11 +1,15 @@
 ---
-id: "12-006"
+id: 12-006
 title: "☕ Java代码审计 (Java Code Audit)"
-category: "代码审计"
+category: 代码审计
 category_en: "Code Audit"
-difficulty: "★★★★"
+difficulty: ★★★★
 tools: "FindSecBugs, SpotBugs, Fortify, Semgrep"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["code-audit", "static-analysis", "php-audit", "java-audit", "javascript-audit"]
+subdomain: code-audit
+nist_csf: ["PR.IP-12", "ID.RA-01"]
+mitre_attack: []
 ---
 # ☕ Java代码审计 (Java Code Audit)
 

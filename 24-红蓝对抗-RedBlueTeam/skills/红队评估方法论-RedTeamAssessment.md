@@ -1,13 +1,16 @@
 ---
-id: "24-001"
+id: 24-001
 title: "🔴 红队评估方法论 (Red Team Assessment)"
-category: "红蓝对抗"
+category: 红蓝对抗
 category_en: "Red/Blue Team"
-difficulty: "★★★★★"
+difficulty: ★★★★★
 tools: "Cobalt Strike, CALDERA, Sliver, Nighthawk, Mythic"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["red-team", "blue-team", "purple-team", "bas", "adversary-simulation"]
+subdomain: red-blue-team
+nist_csf: ["DE.AE-02", "RS.AN-01", "ID.RM-01"]
+mitre_attack: ["T1595", "T1562"]
 ---
-
 # 🔴 红队评估方法论 (Red Team Assessment)
 
 ## 概述

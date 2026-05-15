@@ -1,13 +1,16 @@
 ---
-id: "24-003"
+id: 24-003
 title: "🟣 紫队协作评估 (Purple Team Exercise)"
-category: "红蓝对抗"
+category: 红蓝对抗
 category_en: "Red/Blue Team"
-difficulty: "★★★★★"
+difficulty: ★★★★★
 tools: "CALDERA, SCYTHE, AttackIQ, Atomic Red Team, PurpleSharp"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["red-team", "blue-team", "purple-team", "bas", "adversary-simulation"]
+subdomain: red-blue-team
+nist_csf: ["DE.AE-02", "RS.AN-01", "ID.RM-01"]
+mitre_attack: ["T1595", "T1562"]
 ---
-
 # 🟣 紫队协作评估 (Purple Team Exercise)
 
 ## 概述

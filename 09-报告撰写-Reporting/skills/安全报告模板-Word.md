@@ -1,11 +1,15 @@
 ---
-id: "09-003"
+id: 09-003
 title: "📝 安全报告模板 - Word/PDF格式 (Security Report Template - Word/PDF)"
-category: "报告撰写"
-category_en: "Reporting"
-difficulty: "★★★"
+category: 报告撰写
+category_en: Reporting
+difficulty: ★★★
 tools: "python-docx, LibreOffice, Word"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["reporting", "documentation", "cvss", "pentest-report", "markdown"]
+subdomain: reporting
+nist_csf: ["ID.GV-01", "ID.SC-03"]
+mitre_attack: []
 ---
 # 📝 安全报告模板 - Word/PDF格式 (Security Report Template - Word/PDF)
 

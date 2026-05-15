@@ -1,13 +1,16 @@
 ---
-id: "25-005"
+id: 25-005
 title: "🏢 第三方供应商风险评估 (Third-Party Vendor Risk Assessment)"
-category: "供应链安全"
+category: 供应链安全
 category_en: "Supply Chain Security"
-difficulty: "★★★★"
+difficulty: ★★★★
 tools: "BitSight, SecurityScorecard, OneTrust Vendor Risk, Prevalent, Panorays"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["supply-chain-security", "sbom", "dependency-check", "container-image", "third-party-risk"]
+subdomain: supply-chain-security
+nist_csf: ["ID.SC-01", "ID.SC-02", "PR.DS-10"]
+mitre_attack: ["T1195", "T1525"]
 ---
-
 # 🏢 第三方供应商风险评估 (Third-Party Vendor Risk Assessment)
 
 ## 概述

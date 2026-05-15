@@ -1,11 +1,15 @@
 ---
-id: "18-001"
+id: 18-001
 title: "🔗 CI/CD管道安全审计 (CI/CD Pipeline Security)"
-category: "安全开发运维"
-category_en: "DevSecOps"
-difficulty: "★★★★"
+category: 安全开发运维
+category_en: DevSecOps
+difficulty: ★★★★
 tools: "GitLab CI Security, Jenkins Security Scanner, GitGuardian, TruffleHog"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["devsecops", "ci-cd", "sast", "dast", "iac-security", "supply-chain"]
+subdomain: devsecops
+nist_csf: ["PR.IP-12", "ID.RA-01", "DE.CM-08"]
+mitre_attack: []
 ---
 # 🔗 CI/CD管道安全审计 (CI/CD Pipeline Security)
 

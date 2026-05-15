@@ -1,11 +1,15 @@
 ---
-id: "13-003"
+id: 13-003
 title: "🔬 静态逆向分析 (Static Reverse Engineering)"
-category: "逆向工程"
+category: 逆向工程
 category_en: "Reverse Engineering"
-difficulty: "★★★★"
+difficulty: ★★★★
 tools: "IDA Pro, Ghidra, Radare2, Binary Ninja"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["reverse-engineering", "malware-analysis", "debugging", "static-analysis"]
+subdomain: reverse-engineering
+nist_csf: ["DE.CM-04", "DE.AE-02"]
+mitre_attack: ["T1204", "T1036"]
 ---
 # 🔬 静态逆向分析 (Static Reverse Engineering)
 

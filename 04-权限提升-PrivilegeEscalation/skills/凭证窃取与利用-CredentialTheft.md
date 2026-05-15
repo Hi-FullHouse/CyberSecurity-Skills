@@ -1,11 +1,15 @@
 ---
-id: "04-004"
+id: 04-004
 title: "🔑 凭证窃取与利用 (Credential Theft & Exploitation)"
-category: "权限提升"
+category: 权限提升
 category_en: "Privilege Escalation"
-difficulty: "★★★★"
+difficulty: ★★★★
 tools: "Mimikatz, Lazagne, LaZagne, ProcDump"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["privilege-escalation", "linux-privilege", "windows-privilege", "credential-theft"]
+subdomain: privilege-escalation
+nist_csf: ["PR.AC-01", "DE.CM-04"]
+mitre_attack: ["T1068", "T1548", "T1055", "T1003"]
 ---
 # 🔑 凭证窃取与利用 (Credential Theft & Exploitation)
 

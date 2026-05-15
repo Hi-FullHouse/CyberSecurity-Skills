@@ -1,13 +1,16 @@
 ---
-id: "25-001"
+id: 25-001
 title: "📦 SBOM生成与验证 (SBOM Generation & Verification)"
-category: "供应链安全"
+category: 供应链安全
 category_en: "Supply Chain Security"
-difficulty: "★★★"
+difficulty: ★★★
 tools: "Syft, CycloneDX, SPDX, Trivy, Dependency-Track, FOSSA"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["supply-chain-security", "sbom", "dependency-check", "container-image", "third-party-risk"]
+subdomain: supply-chain-security
+nist_csf: ["ID.SC-01", "ID.SC-02", "PR.DS-10"]
+mitre_attack: ["T1195", "T1525"]
 ---
-
 # 📦 SBOM生成与验证 (SBOM Generation & Verification)
 
 ## 概述

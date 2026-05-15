@@ -1,11 +1,15 @@
 ---
-id: "04-001"
+id: 04-001
 title: "🐧 Linux权限提升 (Linux Privilege Escalation)"
-category: "权限提升"
+category: 权限提升
 category_en: "Privilege Escalation"
-difficulty: "★★★"
+difficulty: ★★★
 tools: "LinPEAS, Linux Exploit Suggester, GTFO Bins"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["privilege-escalation", "linux-privilege", "windows-privilege", "credential-theft"]
+subdomain: privilege-escalation
+nist_csf: ["PR.AC-01", "DE.CM-04"]
+mitre_attack: ["T1068", "T1548", "T1055", "T1003"]
 ---
 # 🐧 Linux权限提升 (Linux Privilege Escalation)
 

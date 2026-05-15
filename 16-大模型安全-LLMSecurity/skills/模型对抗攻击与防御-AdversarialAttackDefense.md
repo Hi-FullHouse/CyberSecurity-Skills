@@ -1,11 +1,15 @@
 ---
-id: "16-008"
+id: 16-008
 title: "🛡️ 模型对抗攻击与防御 (Adversarial Attack & Defense)"
-category: "大模型安全"
+category: 大模型安全
 category_en: "LLM Security"
-difficulty: "★★★★★"
+difficulty: ★★★★★
 tools: "ART, CleverHans, Foolbox, Adversarial Robustness"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["llm-security", "ai-security", "prompt-injection", "model-security", "ai-agent"]
+subdomain: llm-security
+nist_csf: ["PR.AC-01", "PR.DS-01", "DE.CM-01"]
+mitre_attack: []
 ---
 # 🛡️ 模型对抗攻击与防御 (Adversarial Attack & Defense)
 

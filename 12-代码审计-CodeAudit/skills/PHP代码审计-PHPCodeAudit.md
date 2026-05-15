@@ -1,11 +1,15 @@
 ---
-id: "12-007"
+id: 12-007
 title: "🔍 PHP代码审计 (PHP Code Audit)"
-category: "代码审计"
+category: 代码审计
 category_en: "Code Audit"
-difficulty: "★★★"
+difficulty: ★★★
 tools: "RIPS, phpcs, Psalm, Phan, 手动审查"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["code-audit", "static-analysis", "php-audit", "java-audit", "javascript-audit"]
+subdomain: code-audit
+nist_csf: ["PR.IP-12", "ID.RA-01"]
+mitre_attack: []
 ---
 # 🔍 PHP代码审计 (PHP Code Audit)
 

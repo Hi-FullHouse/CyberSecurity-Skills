@@ -1,11 +1,15 @@
 ---
-id: "04-003"
+id: 04-003
 title: "⬆️ 内核漏洞与服务配置错误提权 (Kernel Exploit & Service Misconfig PrivEsc)"
-category: "权限提升"
+category: 权限提升
 category_en: "Privilege Escalation"
-difficulty: "★★★★"
+difficulty: ★★★★
 tools: "漏洞利用代码, MSF模块, 自定义exp"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["privilege-escalation", "linux-privilege", "windows-privilege", "credential-theft"]
+subdomain: privilege-escalation
+nist_csf: ["PR.AC-01", "DE.CM-04"]
+mitre_attack: ["T1068", "T1548", "T1055", "T1003"]
 ---
 # ⬆️ 内核漏洞与服务配置错误提权 (Kernel Exploit & Service Misconfig PrivEsc)
 

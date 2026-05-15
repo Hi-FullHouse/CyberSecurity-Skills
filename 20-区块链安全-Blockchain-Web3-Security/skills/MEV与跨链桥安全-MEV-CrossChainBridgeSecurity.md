@@ -1,11 +1,15 @@
 ---
-id: "20-006"
+id: 20-006
 title: "⚡ MEV与跨链桥安全 (MEV & Cross-Chain Bridge Security)"
-category: "区块链安全"
+category: 区块链安全
 category_en: "Blockchain/Web3 Security"
-difficulty: "★★★★★"
+difficulty: ★★★★★
 tools: "MEV-Inspect, Flashbots, Bridge Audit Tools, LayerZero, Chainlink CCIP"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["blockchain-security", "web3", "smart-contract", "defi", "solidity"]
+subdomain: blockchain-web3-security
+nist_csf: ["PR.AC-01", "PR.DS-01"]
+mitre_attack: []
 ---
 # ⚡ MEV与跨链桥安全 (MEV & Cross-Chain Bridge Security)
 

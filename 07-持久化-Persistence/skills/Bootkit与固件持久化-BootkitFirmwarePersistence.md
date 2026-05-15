@@ -1,13 +1,16 @@
 ---
-id: "07-005"
+id: 07-005
 title: "Bootkit与固件持久化 (Bootkit & Firmware Persistence)"
-category: "持久化"
-category_en: "Persistence"
-difficulty: "★★★★★"
+category: 持久化
+category_en: Persistence
+difficulty: ★★★★★
 tools: "UEFI, SPI Flash, Chipsec, Flashrom, RWEverything"
-last_updated: "2026-05"
+last_updated: 2026-05
+tags: ["persistence", "bootkit", "startup-autostart", "account-persistence"]
+subdomain: persistence
+nist_csf: ["PR.AC-01", "DE.CM-01"]
+mitre_attack: ["T1543", "T1547", "T1136", "T1053"]
 ---
-
 # Bootkit与固件持久化 (Bootkit & Firmware Persistence)
 
 ## 概述

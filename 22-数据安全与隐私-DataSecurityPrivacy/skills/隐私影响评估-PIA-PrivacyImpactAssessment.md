@@ -1,13 +1,16 @@
 ---
-id: "22-006"
+id: 22-006
 title: "📝 隐私影响评估(PIA) (Privacy Impact Assessment)"
-category: "数据安全与隐私"
+category: 数据安全与隐私
 category_en: "Data Security & Privacy"
-difficulty: "★★★★"
+difficulty: ★★★★
 tools: "CNIL PIA Tool, OneTrust DPIA, PIA Template, DPIA Toolkit"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["data-security", "privacy", "dlp", "gdpr", "encryption", "data-classification"]
+subdomain: data-security-privacy
+nist_csf: ["PR.DS-01", "PR.DS-02", "PR.DS-05", "ID.GV-03"]
+mitre_attack: ["T1530", "T1048", "T1567"]
 ---
-
 # 📝 隐私影响评估(PIA) (Privacy Impact Assessment)
 
 ## 概述

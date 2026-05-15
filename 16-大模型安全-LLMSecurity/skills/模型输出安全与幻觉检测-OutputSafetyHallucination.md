@@ -1,11 +1,15 @@
 ---
-id: "16-009"
+id: 16-009
 title: "📝 模型输出安全与幻觉检测 (Output Safety & Hallucination Detection)"
-category: "大模型安全"
+category: 大模型安全
 category_en: "LLM Security"
-difficulty: "★★★"
+difficulty: ★★★
 tools: "Guardrails, Nemo Guardrails, 幻觉检测模型"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["llm-security", "ai-security", "prompt-injection", "model-security", "ai-agent"]
+subdomain: llm-security
+nist_csf: ["PR.AC-01", "PR.DS-01", "DE.CM-01"]
+mitre_attack: []
 ---
 # 📝 模型输出安全与幻觉检测 (Output Safety & Hallucination Detection)
 

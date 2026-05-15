@@ -1,11 +1,15 @@
 ---
-id: "08-001"
+id: 08-001
 title: "🧹 痕迹清除 (Covering Tracks / Anti-Forensics)"
-category: "痕迹清除"
+category: 痕迹清除
 category_en: "Covering Tracks"
-difficulty: "★★★"
+difficulty: ★★★
 tools: "日志清除, 文件隐藏, 时间戳修改, 反取证技术"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["covering-tracks", "anti-forensics", "process-injection", "obfuscation"]
+subdomain: covering-tracks
+nist_csf: ["DE.CM-01", "PR.PT-01"]
+mitre_attack: ["T1070", "T1562", "T1055", "T1027"]
 ---
 # 🧹 痕迹清除 (Covering Tracks / Anti-Forensics)
 

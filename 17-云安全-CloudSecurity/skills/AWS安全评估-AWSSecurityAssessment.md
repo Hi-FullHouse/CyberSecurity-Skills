@@ -1,11 +1,15 @@
 ---
-id: "17-001"
+id: 17-001
 title: "☁️ AWS安全评估 (AWS Security Assessment)"
-category: "云安全"
+category: 云安全
 category_en: "Cloud Security"
-difficulty: "★★★★"
+difficulty: ★★★★
 tools: "Prowler, ScoutSuite, AWS Config, Security Hub, PacBot"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["cloud-security", "aws", "azure", "gcp", "cloud-iam", "cloud-network"]
+subdomain: cloud-security
+nist_csf: ["PR.AC-01", "PR.DS-05", "PR.PT-01"]
+mitre_attack: ["T1525", "T1613", "T1537"]
 ---
 # ☁️ AWS安全评估 (AWS Security Assessment)
 

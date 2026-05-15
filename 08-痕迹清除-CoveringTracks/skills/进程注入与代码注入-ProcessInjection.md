@@ -1,13 +1,16 @@
 ---
-id: "08-002"
+id: 08-002
 title: "进程注入与代码注入 (Process Injection & Code Injection)"
-category: "痕迹清除"
+category: 痕迹清除
 category_en: "Covering Tracks"
-difficulty: "★★★★"
+difficulty: ★★★★
 tools: "Cobalt Strike, Meterpreter, PowerSploit, Process Hollowing, APC"
-last_updated: "2026-05"
+last_updated: 2026-05
+tags: ["covering-tracks", "anti-forensics", "process-injection", "obfuscation"]
+subdomain: covering-tracks
+nist_csf: ["DE.CM-01", "PR.PT-01"]
+mitre_attack: ["T1070", "T1562", "T1055", "T1027"]
 ---
-
 # 进程注入与代码注入 (Process Injection & Code Injection)
 
 ## 概述

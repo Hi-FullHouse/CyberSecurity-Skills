@@ -1,11 +1,15 @@
 ---
-id: "17-007"
+id: 17-007
 title: "⚡ 无服务器架构安全 (Serverless Security)"
-category: "云安全"
+category: 云安全
 category_en: "Cloud Security"
-difficulty: "★★★★"
+difficulty: ★★★★
 tools: "AWS Lambda Check, Serverless Framework, PureSec, Snyk"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["cloud-security", "aws", "azure", "gcp", "cloud-iam", "cloud-network"]
+subdomain: cloud-security
+nist_csf: ["PR.AC-01", "PR.DS-05", "PR.PT-01"]
+mitre_attack: ["T1525", "T1613", "T1537"]
 ---
 # ⚡ 无服务器架构安全 (Serverless Security)
 

@@ -1,11 +1,15 @@
 ---
-id: "07-001"
+id: 07-001
 title: "🔐 持久化 - 长期控制 (Persistence - Long-term Access)"
-category: "持久化"
-category_en: "Persistence"
-difficulty: "★★★"
+category: 持久化
+category_en: Persistence
+difficulty: ★★★
 tools: "MSF Venom, Cobalt Strike, 计划任务, 自启动项"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["persistence", "bootkit", "startup-autostart", "account-persistence"]
+subdomain: persistence
+nist_csf: ["PR.AC-01", "DE.CM-01"]
+mitre_attack: ["T1543", "T1547", "T1136", "T1053"]
 ---
 # 🔐 持久化 - 长期控制 (Persistence - Long-term Access)
 

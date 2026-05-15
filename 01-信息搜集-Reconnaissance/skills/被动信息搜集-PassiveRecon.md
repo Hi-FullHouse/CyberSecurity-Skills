@@ -1,11 +1,15 @@
 ---
-id: "01-007"
+id: 01-007
 title: "🕵️ 被动信息搜集 (Passive Reconnaissance / OSINT)"
-category: "信息搜集"
-category_en: "Reconnaissance"
-difficulty: "★★"
+category: 信息搜集
+category_en: Reconnaissance
+difficulty: ★★
 tools: "Google Dork, Shodan, Maltego, theHarvester"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["reconnaissance", "osint", "information-gathering", "dns-enumeration", "passive-recon"]
+subdomain: reconnaissance
+nist_csf: ["ID.AM-01", "ID.AM-04", "DE.CM-01"]
+mitre_attack: ["T1595", "T1592", "T1590", "T1596"]
 ---
 # 🕵️ 被动信息搜集 (Passive Reconnaissance / OSINT)
 

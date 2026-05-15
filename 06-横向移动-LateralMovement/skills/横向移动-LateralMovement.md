@@ -1,11 +1,15 @@
 ---
-id: "06-003"
+id: 06-003
 title: "🔄 横向移动 (Lateral Movement)"
-category: "横向移动"
+category: 横向移动
 category_en: "Lateral Movement"
-difficulty: "★★★"
+difficulty: ★★★
 tools: "BloodHound, CrackMapExec, Impacket"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["lateral-movement", "pivoting", "tunneling", "remote-execution"]
+subdomain: lateral-movement
+nist_csf: ["DE.CM-04", "PR.AC-05"]
+mitre_attack: ["T1021", "T1570", "T1080", "T1550"]
 ---
 # 🔄 横向移动 (Lateral Movement)
 

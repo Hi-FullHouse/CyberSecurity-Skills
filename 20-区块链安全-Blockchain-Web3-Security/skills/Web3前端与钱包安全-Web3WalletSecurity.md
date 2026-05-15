@@ -1,11 +1,15 @@
 ---
-id: "20-004"
+id: 20-004
 title: "🖥️ Web3前端与钱包安全 (Web3 Frontend & Wallet Security)"
-category: "区块链安全"
+category: 区块链安全
 category_en: "Blockchain/Web3 Security"
-difficulty: "★★★★"
+difficulty: ★★★★
 tools: "MetaMask Security, Ethers.js, Web3.js, WalletConnect, EIP-1193"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["blockchain-security", "web3", "smart-contract", "defi", "solidity"]
+subdomain: blockchain-web3-security
+nist_csf: ["PR.AC-01", "PR.DS-01"]
+mitre_attack: []
 ---
 # 🖥️ Web3前端与钱包安全 (Web3 Frontend & Wallet Security)
 

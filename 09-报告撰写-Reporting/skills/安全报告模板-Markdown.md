@@ -1,11 +1,15 @@
 ---
-id: "09-002"
+id: 09-002
 title: "📄 安全报告模板 - Markdown格式 (Security Report Template - Markdown)"
-category: "报告撰写"
-category_en: "Reporting"
-difficulty: "★★"
+category: 报告撰写
+category_en: Reporting
+difficulty: ★★
 tools: "Typora, VS Code, Mermaid, Python"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["reporting", "documentation", "cvss", "pentest-report", "markdown"]
+subdomain: reporting
+nist_csf: ["ID.GV-01", "ID.SC-03"]
+mitre_attack: []
 ---
 # 📄 安全报告模板 - Markdown格式 (Security Report Template - Markdown)
 

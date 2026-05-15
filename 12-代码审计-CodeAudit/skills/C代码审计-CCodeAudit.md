@@ -1,11 +1,15 @@
 ---
-id: "12-003"
+id: 12-003
 title: "⚙️ C代码审计 (C Code Audit)"
-category: "代码审计"
+category: 代码审计
 category_en: "Code Audit"
-difficulty: "★★★★"
+difficulty: ★★★★
 tools: "Flawfinder, Cppcheck, ASan, Valgrind"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["code-audit", "static-analysis", "php-audit", "java-audit", "javascript-audit"]
+subdomain: code-audit
+nist_csf: ["PR.IP-12", "ID.RA-01"]
+mitre_attack: []
 ---
 # ⚙️ C代码审计 (C Code Audit)
 

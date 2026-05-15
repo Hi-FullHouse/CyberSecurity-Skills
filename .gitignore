@@ -22,6 +22,9 @@ _inventory_result.json
 _scan.py
 _sync.py
 _add_frontmatter.py
+# Temporary audit/helper scripts (one-time use)
+_audit*.py
+_enrich*.py
 _ls*.ps1
 _tmp*.ps1
 *.log

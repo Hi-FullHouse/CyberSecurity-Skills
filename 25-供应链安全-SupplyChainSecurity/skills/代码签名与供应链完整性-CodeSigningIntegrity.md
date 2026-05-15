@@ -1,13 +1,16 @@
 ---
-id: "25-003"
+id: 25-003
 title: "📝 代码签名与供应链完整性 (Code Signing & Supply Chain Integrity)"
-category: "供应链安全"
+category: 供应链安全
 category_en: "Supply Chain Security"
-difficulty: "★★★★"
+difficulty: ★★★★
 tools: "cosign, sigstore, GnuPG, notary, in-toto, TUF"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["supply-chain-security", "sbom", "dependency-check", "container-image", "third-party-risk"]
+subdomain: supply-chain-security
+nist_csf: ["ID.SC-01", "ID.SC-02", "PR.DS-10"]
+mitre_attack: ["T1195", "T1525"]
 ---
-
 # 📝 代码签名与供应链完整性 (Code Signing & Supply Chain Integrity)
 
 ## 概述

@@ -1,13 +1,16 @@
 ---
-id: "23-004"
+id: 23-004
 title: "⚙️ 钓鱼基础设施搭建 (Phishing Infrastructure)"
-category: "社会工程学"
+category: 社会工程学
 category_en: "Social Engineering"
-difficulty: "★★★★"
+difficulty: ★★★★
 tools: "GoPhish, Modlishka, Muraena, Evilginx2, Nginx"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["social-engineering", "phishing", "vishing", "physical-security", "awareness"]
+subdomain: social-engineering
+nist_csf: ["PR.AT-01", "PR.AT-02"]
+mitre_attack: ["T1566", "T1598", "T1204"]
 ---
-
 # ⚙️ 钓鱼基础设施搭建 (Phishing Infrastructure)
 
 ## 概述

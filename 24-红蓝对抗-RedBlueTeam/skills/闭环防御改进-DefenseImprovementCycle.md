@@ -1,13 +1,16 @@
 ---
-id: "24-005"
+id: 24-005
 title: "🔄 闭环防御改进 (Defense Improvement Cycle)"
-category: "红蓝对抗"
+category: 红蓝对抗
 category_en: "Red/Blue Team"
-difficulty: "★★★★"
+difficulty: ★★★★
 tools: "Purple Team Metrics, Detection Gap Analysis, Jira, Confluence, MITRE Navigator"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["red-team", "blue-team", "purple-team", "bas", "adversary-simulation"]
+subdomain: red-blue-team
+nist_csf: ["DE.AE-02", "RS.AN-01", "ID.RM-01"]
+mitre_attack: ["T1595", "T1562"]
 ---
-
 # 🔄 闭环防御改进 (Defense Improvement Cycle)
 
 ## 概述

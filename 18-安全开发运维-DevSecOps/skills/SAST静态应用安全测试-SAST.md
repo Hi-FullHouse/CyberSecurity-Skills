@@ -1,11 +1,15 @@
 ---
-id: "18-003"
+id: 18-003
 title: "🔍 SAST静态应用安全测试 (Static Application Security Testing)"
-category: "安全开发运维"
-category_en: "DevSecOps"
-difficulty: "★★★★"
+category: 安全开发运维
+category_en: DevSecOps
+difficulty: ★★★★
 tools: "SonarQube, Semgrep, CodeQL, Fortify, Checkmarx"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["devsecops", "ci-cd", "sast", "dast", "iac-security", "supply-chain"]
+subdomain: devsecops
+nist_csf: ["PR.IP-12", "ID.RA-01", "DE.CM-08"]
+mitre_attack: []
 ---
 # 🔍 SAST静态应用安全测试 (Static Application Security Testing)
 

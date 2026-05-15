@@ -1,13 +1,16 @@
 ---
-id: "22-005"
+id: 22-005
 title: "🗄️ 数据库安全与加密 (Database Security & Encryption)"
-category: "数据安全与隐私"
+category: 数据安全与隐私
 category_en: "Data Security & Privacy"
-difficulty: "★★★"
+difficulty: ★★★
 tools: "Vault, CipherTrust, SQL Audit Tools, pgAudit, MySQL Audit Plugin"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["data-security", "privacy", "dlp", "gdpr", "encryption", "data-classification"]
+subdomain: data-security-privacy
+nist_csf: ["PR.DS-01", "PR.DS-02", "PR.DS-05", "ID.GV-03"]
+mitre_attack: ["T1530", "T1048", "T1567"]
 ---
-
 # 🗄️ 数据库安全与加密 (Database Security & Encryption)
 
 ## 概述

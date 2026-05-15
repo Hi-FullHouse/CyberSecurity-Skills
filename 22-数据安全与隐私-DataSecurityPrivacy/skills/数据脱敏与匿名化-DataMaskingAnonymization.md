@@ -1,13 +1,16 @@
 ---
-id: "22-003"
+id: 22-003
 title: "🔏 数据脱敏与匿名化 (Data Masking & Anonymization)"
-category: "数据安全与隐私"
+category: 数据安全与隐私
 category_en: "Data Security & Privacy"
-difficulty: "★★★★"
+difficulty: ★★★★
 tools: "ARX Data Anonymizer, Privacy Analytics, Oracle DPM, PostgreSQL Anonymizer, Delphix"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["data-security", "privacy", "dlp", "gdpr", "encryption", "data-classification"]
+subdomain: data-security-privacy
+nist_csf: ["PR.DS-01", "PR.DS-02", "PR.DS-05", "ID.GV-03"]
+mitre_attack: ["T1530", "T1048", "T1567"]
 ---
-
 # 🔏 数据脱敏与匿名化 (Data Masking & Anonymization)
 
 ## 概述

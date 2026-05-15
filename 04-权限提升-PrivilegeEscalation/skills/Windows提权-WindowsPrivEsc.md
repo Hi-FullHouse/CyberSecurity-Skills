@@ -1,11 +1,15 @@
 ---
-id: "04-002"
+id: 04-002
 title: "🪟 Windows权限提升 (Windows Privilege Escalation)"
-category: "权限提升"
+category: 权限提升
 category_en: "Privilege Escalation"
-difficulty: "★★★"
+difficulty: ★★★
 tools: "WinPEAS, PowerUp, PrivescCheck, Seatbelt"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["privilege-escalation", "linux-privilege", "windows-privilege", "credential-theft"]
+subdomain: privilege-escalation
+nist_csf: ["PR.AC-01", "DE.CM-04"]
+mitre_attack: ["T1068", "T1548", "T1055", "T1003"]
 ---
 # 🪟 Windows权限提升 (Windows Privilege Escalation)
 

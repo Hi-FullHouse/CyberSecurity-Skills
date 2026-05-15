@@ -3,9 +3,9 @@
   "meta": {
     "title": "CyberSecurity-Skills · 网络安全技能库",
     "description": "渗透测试全流程技能体系 — 从信息收集到报告撰写的完整知识框架",
-    "version": "2.2.1",
-    "total_skills": 153,
-    "total_modules": 26,
+    "version": "2.4.0",
+    "total_skills": 195,
+    "total_modules": 39,
     "last_updated": "2026-05-15",
     "standards": [
       "PTES (Penetration Testing Execution Standard)",
@@ -72,7 +72,7 @@
       "name_en": "Vulnerability Scanning",
       "emoji": "📡",
       "path": "02-漏洞扫描-VulnerabilityScanning",
-      "skill_count": 7,
+      "skill_count": 6,
       "skills": [
         {
           "name": "Web漏洞扫描",
@@ -87,11 +87,6 @@
         {
           "name": "数据库安全评估",
           "file": "数据库安全评估-DatabaseAssessment.md",
-          "difficulty": "★★★"
-        },
-        {
-          "name": "API安全测试",
-          "file": "API安全测试-APISecurityTest.md",
           "difficulty": "★★★"
         },
         {
@@ -517,7 +512,7 @@
       "name_en": "Incident Response",
       "emoji": "🚨",
       "path": "15-应急响应-IncidentResponse",
-      "skill_count": 13,
+      "skill_count": 7,
       "skills": [
         {
           "name": "事件分类与优先级评估",
@@ -530,24 +525,9 @@
           "difficulty": "★★★"
         },
         {
-          "name": "内存取证分析",
-          "file": "内存取证分析-MemoryForensics.md",
-          "difficulty": "★★★★★"
-        },
-        {
-          "name": "磁盘取证与数据恢复",
-          "file": "磁盘取证与数据恢复-DiskForensicsDataRecovery.md",
-          "difficulty": "★★★★"
-        },
-        {
           "name": "网络流量分析",
           "file": "网络流量分析-NetworkTrafficAnalysis.md",
           "difficulty": "★★★★"
-        },
-        {
-          "name": "恶意样本分析",
-          "file": "恶意样本分析-MalwareSampleAnalysis.md",
-          "difficulty": "★★★★★"
         },
         {
           "name": "事件遏制与清除",
@@ -555,23 +535,8 @@
           "difficulty": "★★★★"
         },
         {
-          "name": "勒索软件应急响应",
-          "file": "勒索软件应急响应-RansomwareIncidentResponse.md",
-          "difficulty": "★★★★★"
-        },
-        {
           "name": "云环境应急响应",
           "file": "云环境应急响应-CloudIncidentResponse.md",
-          "difficulty": "★★★★"
-        },
-        {
-          "name": "威胁狩猎",
-          "file": "威胁狩猎-ThreatHunting.md",
-          "difficulty": "★★★★★"
-        },
-        {
-          "name": "SOAR自动化响应",
-          "file": "SOAR自动化响应-SOARAutomation.md",
           "difficulty": "★★★★"
         },
         {
@@ -972,7 +937,7 @@
       "name_en": "Supply Chain Security",
       "emoji": "🔗",
       "path": "25-供应链安全-SupplyChainSecurity",
-      "skill_count": 6,
+      "skill_count": 5,
       "skills": [
         {
           "name": "SBOM生成与验证",
@@ -988,11 +953,6 @@
           "name": "代码签名与供应链完整性",
           "file": "代码签名与供应链完整性-CodeSigningIntegrity.md",
           "difficulty": "★★★★"
-        },
-        {
-          "name": "容器镜像安全扫描",
-          "file": "容器镜像安全扫描-ContainerImageScan.md",
-          "difficulty": "★★★"
         },
         {
           "name": "第三方供应商风险评估",
@@ -1044,6 +1004,210 @@
           "file": "漏洞奖励计划与安全众测-BugBountyCrowdsourcedTesting.md",
           "difficulty": "★★★"
         }
+      ]
+    },
+    {
+      "id": 27,
+      "name_cn": "操作系统安全",
+      "name_en": "OS Security",
+      "emoji": "🖥️",
+      "path": "27-操作系统安全-OSSecurity",
+      "skill_count": 6,
+      "skills": [
+        {
+          "name": "Windows安全加固与基线检查",
+          "file": "Windows安全加固与基线检查-WindowsHardeningBaseline.md",
+          "difficulty": "★★★"
+        },
+        {
+          "name": "Windows攻击与横向移动技术",
+          "file": "Windows攻击与横向移动技术-WindowsAttackLateralMovement.md",
+          "difficulty": "★★★★"
+        },
+        {
+          "name": "Linux安全加固与基线检查",
+          "file": "Linux安全加固与基线检查-LinuxHardeningBaseline.md",
+          "difficulty": "★★★"
+        },
+        {
+          "name": "Linux攻击与权限维持技术",
+          "file": "Linux攻击与权限维持技术-LinuxAttackPersistence.md",
+          "difficulty": "★★★★"
+        },
+        {
+          "name": "macOS安全评估与加固",
+          "file": "macOS安全评估与加固-macOSSecurityHardening.md",
+          "difficulty": "★★★★"
+        },
+        {
+          "name": "国产操作系统安全加固",
+          "file": "国产操作系统安全加固-DomesticOSSecurity.md",
+          "difficulty": "★★★"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name_cn": "威胁狩猎",
+      "name_en": "Threat Hunting",
+      "emoji": "🎯",
+      "path": "28-威胁狩猎-ThreatHunting",
+      "skill_count": 4,
+      "skills": [
+        {"name": "威胁狩猎方法论与假设驱动", "file": "威胁狩猎方法论-ThreatHuntingMethodology.md", "difficulty": "★★★★"},
+        {"name": "基于Sigma规则的检测工程", "file": "Sigma规则检测工程-SigmaRuleEngineering.md", "difficulty": "★★★★"},
+        {"name": "基于ATT&CK的威胁狩猎", "file": "ATT&CK威胁狩猎-MITREAttackHunting.md", "difficulty": "★★★★★"},
+        {"name": "网络流量与日志异常检测", "file": "网络流量与日志异常检测-TrafficLogAnomalyDetection.md", "difficulty": "★★★★"}
+      ]
+    },
+    {
+      "id": 29,
+      "name_cn": "威胁情报",
+      "name_en": "Threat Intelligence",
+      "emoji": "🌐",
+      "path": "29-威胁情报-ThreatIntelligence",
+      "skill_count": 4,
+      "skills": [
+        {"name": "威胁情报馈入与TAXII/STIX管理", "file": "威胁情报馈入与TAXII-STIX管理-ThreatIntelFeedsTAXIISTIX.md", "difficulty": "★★★"},
+        {"name": "MISP平台部署与威胁情报共享", "file": "MISP部署与威胁情报共享-MISPDeploymentIntelSharing.md", "difficulty": "★★★★"},
+        {"name": "APT组织分析与归因", "file": "APT组织分析与归因-APTGroupAnalysisAttribution.md", "difficulty": "★★★★★"},
+        {"name": "威胁情报驱动安全运营", "file": "威胁情报驱动安全运营-ThreatIntelDrivenSOC.md", "difficulty": "★★★★"}
+      ]
+    },
+    {
+      "id": 30,
+      "name_cn": "数字取证",
+      "name_en": "Digital Forensics",
+      "emoji": "🔎",
+      "path": "30-数字取证-DigitalForensics",
+      "skill_count": 5,
+      "skills": [
+        {"name": "磁盘镜像与证据获取", "file": "磁盘镜像与证据获取-DiskImagingEvidenceAcquisition.md", "difficulty": "★★★"},
+        {"name": "内存取证分析(Volatility)", "file": "内存取证分析-Volatility-MemoryForensicsVolatility.md", "difficulty": "★★★★"},
+        {"name": "Windows数字取证分析", "file": "Windows数字取证分析-WindowsDigitalForensics.md", "difficulty": "★★★★"},
+        {"name": "Linux数字取证分析", "file": "Linux数字取证分析-LinuxDigitalForensics.md", "difficulty": "★★★★"},
+        {"name": "浏览器与邮件取证", "file": "浏览器与邮件取证-BrowserEmailForensics.md", "difficulty": "★★★"}
+      ]
+    },
+    {
+      "id": 31,
+      "name_cn": "SOC运营",
+      "name_en": "SOC Operations",
+      "emoji": "🖥️",
+      "path": "31-SOC运营-SOCOperations",
+      "skill_count": 4,
+      "skills": [
+        {"name": "SIEM告警规则与关联分析", "file": "SIEM告警规则与关联分析-SIEMAlertCorrelation.md", "difficulty": "★★★★"},
+        {"name": "SOC事件分级与响应流程", "file": "SOC事件分级与响应流程-SOCTriageResponse.md", "difficulty": "★★★"},
+        {"name": "安全自动化与编排(SOAR)", "file": "安全自动化与编排-SOAR-SecurityAutomationOrchestration.md", "difficulty": "★★★★"},
+        {"name": "SOC指标与运营效能度量", "file": "SOC指标与运营效能度量-SOCMetricsKPIs.md", "difficulty": "★★★"}
+      ]
+    },
+    {
+      "id": 32,
+      "name_cn": "身份与访问管理",
+      "name_en": "Identity & Access Management",
+      "emoji": "🔑",
+      "path": "32-身份访问管理-IAM",
+      "skill_count": 4,
+      "skills": [
+        {"name": "企业IAM策略与架构", "file": "企业IAM策略与架构-EnterpriseIAMStrategy.md", "difficulty": "★★★"},
+        {"name": "PAM特权账号管理", "file": "PAM特权账号管理-PrivilegedAccessManagement.md", "difficulty": "★★★★"},
+        {"name": "云IAM与联邦认证", "file": "云IAM与联邦认证-CloudIAMFederation.md", "difficulty": "★★★★"},
+        {"name": "AD域安全与攻击路径分析", "file": "AD域安全与攻击路径分析-ADSecurityAttackPathAnalysis.md", "difficulty": "★★★★★"}
+      ]
+    },
+    {
+      "id": 33,
+      "name_cn": "容器安全",
+      "name_en": "Container Security",
+      "emoji": "🐳",
+      "path": "33-容器安全-ContainerSecurity",
+      "skill_count": 4,
+      "skills": [
+        {"name": "容器镜像安全与漏洞扫描", "file": "容器镜像安全与漏洞扫描-ContainerImageSecurityScanning.md", "difficulty": "★★★"},
+        {"name": "Kubernetes RBAC与安全策略", "file": "Kubernetes RBAC与安全策略-KubernetesRBACSecurityPolicy.md", "difficulty": "★★★★"},
+        {"name": "容器运行时安全(Falco)", "file": "容器运行时安全-Falco-ContainerRuntimeSecurityFalco.md", "difficulty": "★★★★"},
+        {"name": "容器逃逸检测与防御", "file": "容器逃逸检测与防御-ContainerEscapeDetectionDefense.md", "difficulty": "★★★★★"}
+      ]
+    },
+    {
+      "id": 34,
+      "name_cn": "API安全",
+      "name_en": "API Security",
+      "emoji": "🔌",
+      "path": "34-API安全-APISecurity",
+      "skill_count": 3,
+      "skills": [
+        {"name": "OWASP API安全测试", "file": "OWASP API安全测试-OWASPAPISecurityTesting.md", "difficulty": "★★★★"},
+        {"name": "API认证与授权安全", "file": "API认证与授权安全-APIAuthAuthorizationSecurity.md", "difficulty": "★★★★"},
+        {"name": "GraphQL与微服务API安全", "file": "GraphQL与微服务API安全-GraphQLMicroserviceAPISecurity.md", "difficulty": "★★★★"}
+      ]
+    },
+    {
+      "id": 35,
+      "name_cn": "密码学与PKI",
+      "name_en": "Cryptography & PKI",
+      "emoji": "🔐",
+      "path": "35-密码学与PKI-CryptographyPKI",
+      "skill_count": 3,
+      "skills": [
+        {"name": "TLS/SSL安全配置与审计", "file": "TLS-SSL安全配置与审计-TLSSSLSecurityConfigurationAudit.md", "difficulty": "★★★"},
+        {"name": "PKI架构与证书安全管理", "file": "PKI架构与证书安全管理-PKIArchitectureCertificateManagement.md", "difficulty": "★★★★"},
+        {"name": "加密算法与密钥管理", "file": "加密算法与密钥管理-EncryptionAlgorithmsKeyManagement.md", "difficulty": "★★★★"}
+      ]
+    },
+    {
+      "id": 36,
+      "name_cn": "零信任架构",
+      "name_en": "Zero Trust Architecture",
+      "emoji": "🛡️",
+      "path": "36-零信任架构-ZeroTrust",
+      "skill_count": 3,
+      "skills": [
+        {"name": "零信任架构设计与实施", "file": "零信任架构设计与实施-ZeroTrustArchitectureDesign.md", "difficulty": "★★★★"},
+        {"name": "微隔离与软件定义边界(SDP)", "file": "微隔离与软件定义边界-SDP-MicrosegmentationSDP.md", "difficulty": "★★★★"},
+        {"name": "ZTNA解决方案与IAM集成", "file": "ZTNA解决方案与IAM集成-ZTNASolutionsIAMIntegration.md", "difficulty": "★★★★"}
+      ]
+    },
+    {
+      "id": 37,
+      "name_cn": "端点安全",
+      "name_en": "Endpoint Security",
+      "emoji": "💻",
+      "path": "37-端点安全-EndpointSecurity",
+      "skill_count": 4,
+      "skills": [
+        {"name": "EDR部署与检测规则", "file": "EDR部署与检测规则-EDRDeploymentDetectionRules.md", "difficulty": "★★★★"},
+        {"name": "文件less恶意软件与LOLBins检测", "file": "文件less恶意软件与LOLBins检测-FilelessMalwareLOLBinsDetection.md", "difficulty": "★★★★★"},
+        {"name": "端点加固与合规基线", "file": "端点加固与合规基线-EndpointHardeningComplianceBaseline.md", "difficulty": "★★★★"},
+        {"name": "移动设备安全与MDM", "file": "移动设备安全与MDM-MobileDeviceSecurityMDM.md", "difficulty": "★★★★"}
+      ]
+    },
+    {
+      "id": 38,
+      "name_cn": "勒索软件防御",
+      "name_en": "Ransomware Defense",
+      "emoji": "💰",
+      "path": "38-勒索软件防御-RansomwareDefense",
+      "skill_count": 3,
+      "skills": [
+        {"name": "勒索软件攻击链分析与检测", "file": "勒索软件攻击链分析与检测-RansomwareAttackChainAnalysisDetection.md", "difficulty": "★★★★"},
+        {"name": "勒索软件应急响应与恢复", "file": "勒索软件应急响应与恢复-RansomwareIncidentResponseRecovery.md", "difficulty": "★★★★★"},
+        {"name": "反勒索软件加固与备份策略", "file": "反勒索软件加固与备份策略-AntiRansomwareHardeningBackup.md", "difficulty": "★★★★"}
+      ]
+    },
+    {
+      "id": 39,
+      "name_cn": "安全治理与合规",
+      "name_en": "Governance & Compliance",
+      "emoji": "📋",
+      "path": "39-安全治理合规-GovernanceCompliance",
+      "skill_count": 3,
+      "skills": [
+        {"name": "安全框架与合规审计", "file": "安全框架与合规审计-SecurityFrameworkComplianceAudit.md", "difficulty": "★★★"},
+        {"name": "风险管理与安全度量", "file": "风险管理与安全度量-RiskManagementSecurityMetrics.md", "difficulty": "★★★★"},
+        {"name": "安全策略体系与安全意识", "file": "安全策略体系与安全意识-SecurityPolicyAwareness.md", "difficulty": "★★★"}
       ]
     }
   ]

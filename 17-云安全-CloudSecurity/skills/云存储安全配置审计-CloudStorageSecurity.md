@@ -1,11 +1,15 @@
 ---
-id: "17-005"
+id: 17-005
 title: "💾 云存储安全配置审计 (Cloud Storage Security)"
-category: "云安全"
+category: 云安全
 category_en: "Cloud Security"
-difficulty: "★★★"
+difficulty: ★★★
 tools: "S3 Scanner, CloudSploit, gsutil, Azure Storage Explorer"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["cloud-security", "aws", "azure", "gcp", "cloud-iam", "cloud-network"]
+subdomain: cloud-security
+nist_csf: ["PR.AC-01", "PR.DS-05", "PR.PT-01"]
+mitre_attack: ["T1525", "T1613", "T1537"]
 ---
 # 💾 云存储安全配置审计 (Cloud Storage Security)
 

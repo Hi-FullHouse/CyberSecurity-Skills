@@ -1,11 +1,15 @@
 ---
-id: "17-006"
+id: 17-006
 title: "🌐 云网络与WAF安全 (Cloud Network & WAF Security)"
-category: "云安全"
+category: 云安全
 category_en: "Cloud Security"
-difficulty: "★★★★"
+difficulty: ★★★★
 tools: "AWS WAF, Azure WAF, Cloud Armor, Security Groups, CloudSploit"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["cloud-security", "aws", "azure", "gcp", "cloud-iam", "cloud-network"]
+subdomain: cloud-security
+nist_csf: ["PR.AC-01", "PR.DS-05", "PR.PT-01"]
+mitre_attack: ["T1525", "T1613", "T1537"]
 ---
 # 🌐 云网络与WAF安全 (Cloud Network & WAF Security)
 

@@ -1,11 +1,15 @@
 ---
-id: "12-002"
+id: 12-002
 title: "🔧 C++代码审计 (C++ Code Audit)"
-category: "代码审计"
+category: 代码审计
 category_en: "Code Audit"
-difficulty: "★★★★"
+difficulty: ★★★★
 tools: "Cppcheck, Clang-Tidy, PVS-Studio, CodeQL"
-last_updated: "2025-07"
+last_updated: 2025-07
+tags: ["code-audit", "static-analysis", "php-audit", "java-audit", "javascript-audit"]
+subdomain: code-audit
+nist_csf: ["PR.IP-12", "ID.RA-01"]
+mitre_attack: []
 ---
 # 🔧 C++代码审计 (C++ Code Audit)
 
