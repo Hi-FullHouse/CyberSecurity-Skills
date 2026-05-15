@@ -3,7 +3,7 @@ id: "09-001"
 title: "🌐 安全报告模板 - HTML格式 (Security Report Template - HTML)"
 category: "报告撰写"
 category_en: "Reporting"
-difficulty: "★★☆"
+difficulty: "★★★"
 tools: "Chart.js, HTML/CSS, Python, JavaScript"
 last_updated: "2025-07"
 ---

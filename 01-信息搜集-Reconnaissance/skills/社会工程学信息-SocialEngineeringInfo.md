@@ -3,7 +3,7 @@ id: "01-005"
 title: "👥 社会工程学信息收集 (Social Engineering Information Gathering)"
 category: "信息搜集"
 category_en: "Reconnaissance"
-difficulty: "★★★"
+difficulty: "★★★★"
 tools: "theHarvester, Sherlock, Maltego"
 last_updated: "2025-07"
 ---

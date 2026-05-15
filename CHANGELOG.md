@@ -5,6 +5,40 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.2.1] - 2026-05-15
+
+### Added
+- 模块07（持久化）新增4个技能：启动项与登录自动执行、账户创建与凭证持久化、Office应用程序持久化、Bootkit与固件持久化
+- 模块08（痕迹清除）新增3个技能：进程注入与代码注入、代码混淆与反分析、AMSI绕过与EDR规避
+- 技能总数从146扩展至153，覆盖 MITRE ATT&CK 更多技术点
+- 新增 `.gitattributes` 标准化跨平台换行符
+- 新增 `scripts/` 目录，集中管理辅助开发脚本
+
+### Changed
+- **难度体系全面标准化**：将模块01/02/03/09中残留的旧3星制（含☆）统一转换为5星制（仅★），消除语义冲突
+- 更新 `agent-manifest.json`：新增 `total_skills` 结构化字段，版本提升至 v1.1.0
+- 更新 `index.json`：版本 v2.2.1，`last_updated` 更新至 2026-05-15
+
+### Fixed
+- 修复根 `README.md` 模块22技能名称与实际文件不一致问题
+- 修复根 `README.md` 目录树遗漏模块15（应急响应）问题
+- 补齐模块04/05/06/07/08/10/11的参考资源章节
+- 更新 `CONTRIBUTING.md` 技能模板为YAML frontmatter + 标准化段落格式
+- 优化 `.gitignore` 覆盖更多临时文件模式
+- 清理根目录临时文件 `_ls22.ps1`、`_tmp_list.ps1`
+
+## [2.2.0] - 2026-05-13
+
+### Added
+- 新增模块17-26，覆盖云安全、DevSecOps、工控安全、区块链/Web3、物联网、数据安全与隐私、社会工程学、红蓝对抗、供应链安全、漏洞管理
+- 模块15（应急响应）扩展至13个技能，覆盖威胁狩猎、SOAR自动化、AI安全应急响应等
+- 模块16（大模型安全/LLM Security）新增10个技能，覆盖提示注入、红队测试、联邦学习等
+- 模块14（安全审计）扩展至7个技能，新增AI Agent安全审计
+- 技能总数从86扩展至146
+
+### Changed
+- 调整模块02/03为混合难度格式，部分技能采用5星制
+
 ## [2.1.0] - 2025-07
 
 ### Added

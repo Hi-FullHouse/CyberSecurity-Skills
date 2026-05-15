@@ -6,13 +6,13 @@
 ## 核心技能清单
 | # | 技能名称 | 难度 | 推荐工具 |
 |:---:|:---|:---:|:---|
-| 1 | 被动信息搜集（OSINT） | ★☆☆ | Google Dork, Shodan, Maltego |
-| 2 | 主动信息搜集 | ★★☆ | Nmap, Masscan |
-| 3 | DNS枚举 | ★☆☆ | dnsenum, dig, nslookup |
-| 4 | 子域名探测 | ★★☆ | Subfinder, Amass, Sublist3r |
-| 5 | 网络空间搜索引擎 | ★★☆ | Fofa, ZoomEye, Shodan |
-| 6 | 社会工程学信息 | ★★★ | theHarvester, Sherlock |
-| 7 | 目标技术栈识别 | ★★☆ | WhatWeb, Wappalyzer, Nmap NSE |
+| 1 | 被动信息搜集（OSINT） | ★★ | Google Dork, Shodan, Maltego |
+| 2 | 主动信息搜集 | ★★★ | Nmap, Masscan |
+| 3 | DNS枚举 | ★★ | dnsenum, dig, nslookup |
+| 4 | 子域名探测 | ★★★ | Subfinder, Amass, Sublist3r |
+| 5 | 网络空间搜索引擎 | ★★★ | Fofa, ZoomEye, Shodan |
+| 6 | 社会工程学信息 | ★★★★ | theHarvester, Sherlock |
+| 7 | 目标技术栈识别 | ★★★ | WhatWeb, Wappalyzer, Nmap NSE |
 
 ## Skills 目录
 - [`skills/被动信息搜集-PassiveRecon.md`](skills/被动信息搜集-PassiveRecon.md)

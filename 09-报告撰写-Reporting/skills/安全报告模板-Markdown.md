@@ -3,7 +3,7 @@ id: "09-002"
 title: "📄 安全报告模板 - Markdown格式 (Security Report Template - Markdown)"
 category: "报告撰写"
 category_en: "Reporting"
-difficulty: "★☆☆"
+difficulty: "★★"
 tools: "Typora, VS Code, Mermaid, Python"
 last_updated: "2025-07"
 ---

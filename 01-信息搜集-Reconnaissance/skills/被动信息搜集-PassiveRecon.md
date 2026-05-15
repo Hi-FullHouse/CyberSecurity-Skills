@@ -3,7 +3,7 @@ id: "01-007"
 title: "🕵️ 被动信息搜集 (Passive Reconnaissance / OSINT)"
 category: "信息搜集"
 category_en: "Reconnaissance"
-difficulty: "★☆☆"
+difficulty: "★★"
 tools: "Google Dork, Shodan, Maltego, theHarvester"
 last_updated: "2025-07"
 ---

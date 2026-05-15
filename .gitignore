@@ -22,3 +22,7 @@ _inventory_result.json
 _scan.py
 _sync.py
 _add_frontmatter.py
+_ls*.ps1
+_tmp*.ps1
+*.log
+*.tmp

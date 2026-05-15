@@ -16,3 +16,10 @@
 - [`skills/Windows提权-WindowsPrivEsc.md`](skills/Windows提权-WindowsPrivEsc.md)
 - [`skills/内核漏洞与服务配置错误提权-KernelServicePrivEsc.md`](skills/内核漏洞与服务配置错误提权-KernelServicePrivEsc.md)
 - [`skills/凭证窃取与利用-CredentialTheft.md`](skills/凭证窃取与利用-CredentialTheft.md)
+
+## 参考资源
+- [GTFOBins — Unix Binary Exploitation](https://gtfobins.github.io/)
+- [LOLBAS — Living Off The Land Binaries](https://lolbas-project.github.io/)
+- [HackTricks — Privilege Escalation](https://book.hacktricks.xyz/)
+- [MITRE ATT&CK — Privilege Escalation](https://attack.mitre.org/tactics/TA0004/)
+- [PayloadsAllTheThings — Privilege Escalation](https://github.com/swisskyrepo/PayloadsAllTheThings)

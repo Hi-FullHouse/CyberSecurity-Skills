@@ -1,9 +1,11 @@
 {
   "$schema": "./index.schema.json",
-  "agent_manifest_version": "1.0.0",
+  "agent_manifest_version": "1.1.0",
   "project": {
     "name": "CyberSecurity-Skills",
-    "description": "网络安全渗透测试全流程技能库 — 16大阶段，86个技能",
+    "description": "网络安全渗透测试全流程技能库 — 26大阶段，153个技能",
+    "total_skills": 153,
+    "total_modules": 26,
     "language": "zh-CN",
     "framework": "PTES (Penetration Testing Execution Standard)",
     "standards": [
@@ -58,7 +60,7 @@
     {
       "purpose": "获取所有模块概览",
       "agent_command": "python skill_query.py list-modules",
-      "description": "输出所有16个安全模块的ID、名称、技能数量和路径"
+"description": "输出所有26个安全模块的ID、名称、技能数量和路径"
     },
     {
       "purpose": "搜索与 'SQL注入' 相关的所有技能",

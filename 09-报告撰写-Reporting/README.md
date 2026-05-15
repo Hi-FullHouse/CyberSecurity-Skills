@@ -10,11 +10,11 @@
 
 | # | 技能名称 | 难度 | 推荐工具 | 对应文件 |
 |:---:|:---|:---:|:---|---:|
-| 1 | 渗透测试报告编写方法论 | ★★☆ | 结构化模板 + 质量标准 | [`skills/报告编写-PentestReport.md`](skills/报告编写-PentestReport.md) |
-| 2 | 漏洞评级与 CVSS 评分 | ★★☆ | CVSS 3.1/4.0, DREAD | [`skills/漏洞评级与CVSS-VulnRatingCVSS.md`](skills/漏洞评级与CVSS-VulnRatingCVSS.md) |
-| 3 | **Markdown 安全报告** | ★☆☆ | Typora / VS Code / Mermaid | [`skills/安全报告模板-Markdown.md`](skills/安全报告模板-Markdown.md) |
-| 4 | **HTML 安全报告（交互式）** | ★★☆ | Chart.js / 暗色模式 / PDF导出 | [`skills/安全报告模板-HTML.md`](skills/安全报告模板-HTML.md) |
-| 5 | **Word/PDF 安全报告** | ★★☆ | python-docx / LibreOffice | [`skills/安全报告模板-Word.md`](skills/安全报告模板-Word.md) |
+| 1 | 渗透测试报告编写方法论 | ★★★ | 结构化模板 + 质量标准 | [`skills/报告编写-PentestReport.md`](skills/报告编写-PentestReport.md) |
+| 2 | 漏洞评级与 CVSS 评分 | ★★★ | CVSS 3.1/4.0, DREAD | [`skills/漏洞评级与CVSS-VulnRatingCVSS.md`](skills/漏洞评级与CVSS-VulnRatingCVSS.md) |
+| 3 | **Markdown 安全报告** | ★★ | Typora / VS Code / Mermaid | [`skills/安全报告模板-Markdown.md`](skills/安全报告模板-Markdown.md) |
+| 4 | **HTML 安全报告（交互式）** | ★★★ | Chart.js / 暗色模式 / PDF导出 | [`skills/安全报告模板-HTML.md`](skills/安全报告模板-HTML.md) |
+| 5 | **Word/PDF 安全报告** | ★★★ | python-docx / LibreOffice | [`skills/安全报告模板-Word.md`](skills/安全报告模板-Word.md) |
 
 ## 模板体系总览
 

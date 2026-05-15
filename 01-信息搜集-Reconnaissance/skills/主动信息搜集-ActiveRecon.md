@@ -3,7 +3,7 @@ id: "01-002"
 title: "🎯 主动信息搜集 (Active Reconnaissance)"
 category: "信息搜集"
 category_en: "Reconnaissance"
-difficulty: "★★☆"
+difficulty: "★★★"
 tools: "Nmap, Masscan, Zmap"
 last_updated: "2025-07"
 ---

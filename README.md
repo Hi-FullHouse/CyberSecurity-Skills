@@ -1,12 +1,13 @@
 # 🔒 CyberSecurity-Skills · 网络安全技能库
 
-> **渗透测试全流程技能体系** — 从信息收集到报告撰写的完整知识框架
+> **渗透测试全流程技能体系** — 26大阶段，153个安全技能，覆盖完整攻击面与防御面
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Agent Ready](https://img.shields.io/badge/Agent-Ready-8A2BE2)](agent-manifest.json)
-[![Skills](https://img.shields.io/badge/skills-86-success)](index.json)
+[![Skills](https://img.shields.io/badge/skills-153-success)](index.json)
 [![CLI](https://img.shields.io/badge/CLI-✓-blue)](skill_query.py)
+[![Validate](https://img.shields.io/badge/build-validated-brightgreen)](.github/workflows/validate.yml)
 
 ---
 
@@ -41,13 +42,23 @@ CyberSecurity-Skills/
 ├── 12-代码审计-CodeAudit/              # 代码安全审计
 ├── 13-逆向工程-ReverseEngineering/     # 逆向工程
 ├── 14-安全审计-SecurityAudit/          # 安全合规审计
-├── 15-应急响应-IncidentResponse/      # 应急响应与取证
-└── 16-大模型安全-LLMSecurity/          # 大模型与AI智能体安全
+├── 15-应急响应-IncidentResponse/       # 应急响应与事件处置
+├── 16-大模型安全-LLMSecurity/          # 大模型与AI智能体安全
+├── 17-云安全-CloudSecurity/             # 云安全评估与加固
+├── 18-安全开发运维-DevSecOps/            # DevSecOps与安全开发生命周期
+├── 19-工控安全-ICS-OT-Security/         # 工控/OT系统安全
+├── 20-区块链安全-Blockchain-Web3-Security/ # 区块链/Web3安全
+├── 21-物联网安全-IoT-Security/           # 物联网设备安全
+├── 22-数据安全与隐私-DataSecurityPrivacy/  # 数据安全与隐私保护
+├── 23-社会工程学-SocialEngineering/      # 社会工程学攻击与防御
+├── 24-红蓝对抗-RedBlueTeam/             # 红蓝对抗与BAS模拟
+├── 25-供应链安全-SupplyChainSecurity/    # 软件供应链安全
+└── 26-漏洞管理-VulnerabilityManagement/  # 漏洞全生命周期管理
 ```
 
 ---
 
-## 🗂️ 渗透测试全流程（16大阶段，共86个技能）
+## 🗂️ 渗透测试全流程（26大阶段，共153个技能）
 
 | 阶段 | 中文名称 | 英文名称 | 技能数 |
 |:---:|:---|:---|:---:|
@@ -57,8 +68,8 @@ CyberSecurity-Skills/
 | 04 | ⬆️ 权限提升 | Privilege Escalation | 4 |
 | 05 | 🕵️ 后渗透 | Post-Exploitation | 4 |
 | 06 | 🔄 横向移动 | Lateral Movement | 3 |
-| 07 | 🔗 持久化 | Persistence | 1 |
-| 08 | 🧹 痕迹清除 | Covering Tracks | 1 |
+| 07 | 🔗 持久化 | Persistence | 5 |
+| 08 | 🧹 痕迹清除 | Covering Tracks | 4 |
 | 09 | 📝 报告撰写 | Reporting | 5 |
 | 10 | 📱 移动安全 | Mobile Security | 2 |
 | 11 | 📶 无线安全 | Wireless Security | 1 |
@@ -67,7 +78,17 @@ CyberSecurity-Skills/
 | 14 | 🛡️ 安全审计 | Security Audit | 7 |
 | 15 | 🚨 应急响应 | Incident Response | 13 |
 | 16 | 🤖 大模型安全 | LLM Security | 10 |
-| | | **总计** | **86** |
+| 17 | ☁️ 云安全 | Cloud Security | 8 |
+| 18 | 🔄 安全开发运维 | DevSecOps | 6 |
+| 19 | 🏭 工控安全 | ICS/OT Security | 6 |
+| 20 | 🔗 区块链/Web3安全 | Blockchain/Web3 Security | 6 |
+| 21 | 📡 物联网安全 | IoT Security | 6 |
+| 22 | 🔐 数据安全与隐私 | Data Security & Privacy | 6 |
+| 23 | 🎭 社会工程学 | Social Engineering | 5 |
+| 24 | ⚔️ 红蓝对抗 | Red/Blue Team | 5 |
+| 25 | 🔗 供应链安全 | Supply Chain Security | 6 |
+| 26 | 🛡️ 漏洞管理 | Vulnerability Management | 6 |
+| | | **总计** | **153** |
 
 ---
 
@@ -142,12 +163,19 @@ CyberSecurity-Skills/
 | # | 技能名称 | 文件名 |
 |:---:|:---|:---|
 | 1 | 🔐 持久化 - 长期控制 | `持久化-Persistence.md` |
+| 2 | 🚀 启动项与登录自动执行 | `启动项与登录自动执行-BootLogonAutostart.md` |
+| 3 | 👤 账户创建与凭证持久化 | `账户持久化-AccountPersistence.md` |
+| 4 | 📊 Office应用程序持久化 | `Office应用程序持久化-OfficePersistence.md` |
+| 5 | 💾 Bootkit与固件持久化 | `Bootkit与固件持久化-BootkitFirmwarePersistence.md` |
 
 ### 阶段 08 · 🧹 痕迹清除 (Covering Tracks)
 
 | # | 技能名称 | 文件名 |
 |:---:|:---|:---|
 | 1 | 🧹 痕迹清除与反取证 | `痕迹清除-CoveringTracks.md` |
+| 2 | 💉 进程注入与代码注入 | `进程注入与代码注入-ProcessInjection.md` |
+| 3 | 🔒 代码混淆与反分析 | `代码混淆与反分析-ObfuscationAntiAnalysis.md` |
+| 4 | 🛡️ AMSI绕过与EDR规避 | `AMSI绕过与EDR规避-AMSIByPassEDREvasion.md` |
 
 ### 阶段 09 · 📝 报告撰写 (Reporting)
 
@@ -238,6 +266,116 @@ CyberSecurity-Skills/
 | 8 | ⚙️ AI应用安全配置审计 | `AI应用安全配置审计-AIAppSecurityConfig.md` |
 | 9 | 🤝 联邦学习安全 | `联邦学习安全-FederatedLearningSecurity.md` |
 | 10 | 🎨 多模态AI安全 | `多模态AI安全-MultimodalAISecurity.md` |
+
+### 阶段 17 · ☁️ 云安全 (Cloud Security)
+
+| # | 技能名称 | 文件名 |
+|:---:|:---|:---|
+| 1 | ☁️ AWS安全评估 | `AWS安全评估-AWSSecurityAssessment.md` |
+| 2 | ☁️ Azure安全评估 | `Azure安全评估-AzureSecurityAssessment.md` |
+| 3 | ☁️ GCP安全评估 | `GCP安全评估-GCPSecurityAssessment.md` |
+| 4 | 🔑 云IAM权限与访问控制审计 | `云IAM权限与访问控制审计-CloudIAMAudit.md` |
+| 5 | 💾 云存储安全配置审计 | `云存储安全配置审计-CloudStorageSecurity.md` |
+| 6 | 🌐 云网络与WAF安全 | `云网络与WAF安全-CloudNetworkWAF.md` |
+| 7 | ⚡ 无服务器架构安全 | `无服务器架构安全-ServerlessSecurity.md` |
+| 8 | 🔄 多云安全策略评估 | `多云安全策略评估-MultiCloudSecurity.md` |
+
+### 阶段 18 · 🔄 安全开发运维 (DevSecOps)
+
+| # | 技能名称 | 文件名 |
+|:---:|:---|:---|
+| 1 | 🔧 CI/CD管道安全审计 | `CI-CD管道安全审计-CICDPipelineSecurity.md` |
+| 2 | 📦 IaC安全扫描 | `IaC安全扫描-InfrastructureAsCodeSecurity.md` |
+| 3 | 🔍 SAST静态应用安全测试 | `SAST静态应用安全测试-SAST.md` |
+| 4 | 🌐 DAST动态应用安全测试 | `DAST动态应用安全测试-DAST.md` |
+| 5 | 🔗 软件供应链安全 | `软件供应链安全-SoftwareSupplyChainSecurity.md` |
+| 6 | 🧠 安全需求与威胁建模 | `安全需求与威胁建模-ThreatModeling.md` |
+
+### 阶段 19 · 🏭 工控安全 (ICS/OT Security)
+
+| # | 技能名称 | 文件名 |
+|:---:|:---|:---|
+| 1 | 🏭 SCADA系统安全评估 | `SCADA系统安全评估-SCADASecurityAssessment.md` |
+| 2 | ⚙️ PLC与RTU安全测试 | `PLC与RTU安全测试-PLC-RTU-SecurityTesting.md` |
+| 3 | 🌐 工控网络协议安全 | `工控网络协议安全-ICS-NetworkProtocolSecurity.md` |
+| 4 | 📋 工控安全合规审计（IEC 62443） | `工控安全合规审计-IEC62443-Audit.md` |
+| 5 | 🚨 工控安全应急预案 | `工控安全应急预案-ICS-IncidentResponse.md` |
+| 6 | 🛡️ 工业防火墙与网络分段 | `工业防火墙与网络分段-Industrial-Firewall-Segmentation.md` |
+
+### 阶段 20 · 🔗 区块链/Web3安全 (Blockchain/Web3 Security)
+
+| # | 技能名称 | 文件名 |
+|:---:|:---|:---|
+| 1 | 📜 智能合约安全审计 | `智能合约安全审计-SmartContractAudit.md` |
+| 2 | 💰 DeFi协议安全评估 | `DeFi协议安全评估-DeFiSecurityAssessment.md` |
+| 3 | 🤝 共识机制安全分析 | `共识机制安全分析-ConsensusSecurityAnalysis.md` |
+| 4 | 🔐 Web3前端与钱包安全 | `Web3前端与钱包安全-Web3WalletSecurity.md` |
+| 5 | 🔗 区块链节点安全加固 | `区块链节点安全加固-BlockchainNodeHardening.md` |
+| 6 | 🌉 MEV与跨链桥安全 | `MEV与跨链桥安全-MEV-CrossChainBridgeSecurity.md` |
+
+### 阶段 21 · 📡 物联网安全 (IoT Security)
+
+| # | 技能名称 | 文件名 |
+|:---:|:---|:---|
+| 1 | 🔬 固件逆向与分析 | `固件逆向与分析-FirmwareReverseEngineering.md` |
+| 2 | 📶 BLE/Zigbee/Z-Wave无线安全测试 | `BLE-Zigbee-Z-Wave无线安全测试-WirelessProtocolSecurity.md` |
+| 3 | 🌐 物联网通信协议安全 | `物联网通信协议安全-IoTCommunicationSecurity.md` |
+| 4 | 🔧 嵌入式设备硬件安全测试 | `嵌入式设备硬件安全测试-EmbeddedHardwareSecurity.md` |
+| 5 | ☁️ 物联网平台与云安全 | `物联网平台与云安全-IoTPlatformCloudSecurity.md` |
+| 6 | 🏠 智能家居与车联网安全 | `智能家居与车联网安全-SmartHomeConnectedVehicleSecurity.md` |
+
+### 阶段 22 · 🔐 数据安全与隐私保护 (Data Security & Privacy)
+
+| # | 技能名称 | 文件名 |
+|:---:|:---|:---|
+| 1 | 🛡️ DLP数据防泄漏策略 | `DLP数据防泄漏策略-DataLossPrevention.md` |
+| 2 | 📋 数据分类与分级保护 | `数据分类与分级保护-DataClassificationGrading.md` |
+| 3 | 🗄️ 数据库安全与加密 | `数据库安全与加密-DatabaseSecurityEncryption.md` |
+| 4 | 🔏 数据脱敏与匿名化 | `数据脱敏与匿名化-DataMaskingAnonymization.md` |
+| 5 | 🌍 GDPR/个保法合规评估 | `GDPR-个保法合规评估-PrivacyCompliance.md` |
+| 6 | 📝 隐私影响评估（PIA） | `隐私影响评估-PIA-PrivacyImpactAssessment.md` |
+
+### 阶段 23 · 🎭 社会工程学 (Social Engineering)
+
+| # | 技能名称 | 文件名 |
+|:---:|:---|:---|
+| 1 | 🎣 钓鱼邮件模拟 | `钓鱼邮件模拟-PhishingSimulation.md` |
+| 2 | 📞 电话诈骗与Vishing测试 | `电话诈骗与Vishing测试-VishingTesting.md` |
+| 3 | 🚪 物理渗透与社会工程 | `物理渗透与社会工程-PhysicalSocialEngineering.md` |
+| 4 | 🏗️ 钓鱼基础设施搭建 | `钓鱼基础设施搭建-PhishingInfrastructure.md` |
+| 5 | 🧠 员工安全意识评估 | `员工安全意识评估-SecurityAwarenessAssessment.md` |
+
+### 阶段 24 · ⚔️ 红蓝对抗 (Red/Blue Team)
+
+| # | 技能名称 | 文件名 |
+|:---:|:---|:---|
+| 1 | 🔴 红队评估方法论 | `红队评估方法论-RedTeamAssessment.md` |
+| 2 | 🔵 蓝队防御与检测 | `蓝队防御与检测-BlueTeamDefense.md` |
+| 3 | 🟣 紫队协作评估 | `紫队协作评估-PurpleTeamExercise.md` |
+| 4 | ⚡ BAS攻击模拟平台 | `BAS攻击模拟平台-BreachAttackSimulation.md` |
+| 5 | 🔄 闭环防御改进 | `闭环防御改进-DefenseImprovementCycle.md` |
+
+### 阶段 25 · 🔗 供应链安全 (Supply Chain Security)
+
+| # | 技能名称 | 文件名 |
+|:---:|:---|:---|
+| 1 | 📦 SBOM生成与验证 | `SBOM生成与验证-SBOMGeneration.md` |
+| 2 | 🔍 软件依赖与开源合规审计 | `软件依赖与开源合规审计-DependencyLicenseCompliance.md` |
+| 3 | ✍️ 代码签名与供应链完整性 | `代码签名与供应链完整性-CodeSigningIntegrity.md` |
+| 4 | 🐳 容器镜像安全扫描 | `容器镜像安全扫描-ContainerImageScan.md` |
+| 5 | 🤝 第三方供应商风险评估 | `第三方供应商风险评估-ThirdPartyVendorRisk.md` |
+| 6 | 🚨 供应链攻击检测与响应 | `供应链攻击检测与响应-SupplyChainAttackResponse.md` |
+
+### 阶段 26 · 🛡️ 漏洞管理 (Vulnerability Management)
+
+| # | 技能名称 | 文件名 |
+|:---:|:---|:---|
+| 1 | 🔍 漏洞情报与CVE查询 | `漏洞情报与CVE查询-VulnerabilityIntelligence.md` |
+| 2 | 🧪 漏洞验证与PoC测试 | `漏洞验证与PoC测试-VulnerabilityVerification.md` |
+| 3 | 📊 漏洞优先级与风险评估 | `漏洞优先级与风险评估-VulnerabilityPrioritization.md` |
+| 4 | 🔧 漏洞修复与补丁管理 | `漏洞修复与补丁管理-VulnerabilityRemediation.md` |
+| 5 | ♻️ 漏洞生命周期闭环管理 | `漏洞生命周期闭环管理-VulnerabilityLifecycle.md` |
+| 6 | 🏆 漏洞奖励计划与安全众测 | `漏洞奖励计划与安全众测-BugBountyCrowdsourcedTesting.md` |
 
 ---
 

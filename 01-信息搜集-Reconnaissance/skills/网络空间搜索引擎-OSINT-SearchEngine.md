@@ -3,7 +3,7 @@ id: "01-006"
 title: "🌍 网络空间搜索引擎 (Cyberspace Search Engine)"
 category: "信息搜集"
 category_en: "Reconnaissance"
-difficulty: "★★☆"
+difficulty: "★★★"
 tools: "Fofa, ZoomEye, Shodan, Censys"
 last_updated: "2025-07"
 ---

@@ -3,7 +3,7 @@ id: "01-004"
 title: "🖥️ 目标技术栈识别 (Technology Stack Fingerprinting)"
 category: "信息搜集"
 category_en: "Reconnaissance"
-difficulty: "★★☆"
+difficulty: "★★★"
 tools: "WhatWeb, Wappalyzer, Nmap NSE, BuiltWith"
 last_updated: "2025-07"
 ---

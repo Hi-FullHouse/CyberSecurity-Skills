@@ -14,3 +14,9 @@
 - [`skills/横向移动-LateralMovement.md`](skills/横向移动-LateralMovement.md)
 - [`skills/内网代理与隧道-InternalProxyTunnel.md`](skills/内网代理与隧道-InternalProxyTunnel.md)
 - [`skills/PsExec与WMI远程执行-PsExecWMI.md`](skills/PsExec与WMI远程执行-PsExecWMI.md)
+
+## 参考资源
+- [MITRE ATT&CK — Lateral Movement](https://attack.mitre.org/tactics/TA0008/)
+- [CrackMapExec — Network Assessment Tool](https://github.com/Porchetta-Industries/CrackMapExec)
+- [Impacket — Network Protocol Tools](https://github.com/fortra/impacket)
+- [BloodHound — Active Directory Attack Path Mapping](https://github.com/BloodHoundAD/BloodHound)

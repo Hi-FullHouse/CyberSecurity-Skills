@@ -3,7 +3,7 @@ id: "09-003"
 title: "📝 安全报告模板 - Word/PDF格式 (Security Report Template - Word/PDF)"
 category: "报告撰写"
 category_en: "Reporting"
-difficulty: "★★☆"
+difficulty: "★★★"
 tools: "python-docx, LibreOffice, Word"
 last_updated: "2025-07"
 ---

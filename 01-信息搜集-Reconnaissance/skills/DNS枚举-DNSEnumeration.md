@@ -3,7 +3,7 @@ id: "01-001"
 title: "🌐 DNS枚举 (DNS Enumeration)"
 category: "信息搜集"
 category_en: "Reconnaissance"
-difficulty: "★☆☆"
+difficulty: "★★"
 tools: "dnsenum, dig, nslookup, fierce"
 last_updated: "2025-07"
 ---
