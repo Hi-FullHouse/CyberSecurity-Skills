@@ -25,6 +25,8 @@ mitre_attack: ["T1595", "T1592", "T1590", "T1596"]
 subfinder -d example.com -o subdomains.txt
 
 # Amass - 强大的被动收集
+# 注意：首次运行会尝试下载 libpostal 数据（GitHub release CDN），
+# 受限网络/国内环境常直接卡住，命令等于不可用 → 优先用 subfinder / assetfinder
 amass enum -passive -d example.com -o amass_passive.txt
 
 # Sublist3r - 多引擎查询
@@ -94,6 +96,8 @@ massdns -r resolvers.txt -t A -o S -w resolved.txt subdomains.txt
 cat resolved.txt | httprobe -c 50 -t 3000
 
 # httpx - 更强大的存活检测
+# 注意：Kali 等发行版的 /usr/bin/httpx 是 Python 的 httpx 库（命令行参数完全不同），
+# ProjectDiscovery 的 httpx 通常装为 httpx-toolkit，用前 `command -v httpx-toolkit` 确认
 httpx -l resolved.txt -title -status-code -tech-detect -o alive.txt
 ```
 
