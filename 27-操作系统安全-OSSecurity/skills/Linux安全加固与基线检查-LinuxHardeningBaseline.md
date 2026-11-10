@@ -42,7 +42,8 @@ sudo oscap xccdf eval \
   /usr/share/xml/scap/ssg/content/ssg-rhel9-ds.xml
 
 # Debian/Ubuntu 安装
-sudo apt-get install libopenscap8
+# 注意：包名是 openscap-scanner，但扫描器二进制叫 oscap（不是 openscap-scanner）
+sudo apt-get install libopenscap8 openscap-scanner
 # 运行 DISA STIG 扫描
 sudo oscap xccdf eval \
   --profile xccdf_org.ssgproject.content_profile_stig \
